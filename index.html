@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AECOM Sustainability & Construction Glossary</title>
+    <style>
+        /* AECOM Brand Colors */
+        :root {
+            --aecom-earth-green: #008768;
+            --aecom-lime-green: #aecc53;
+            --aecom-midnight-teal: #00353e;
+            --aecom-coral-orange: #e52713;
+            --aecom-light-gray: #f5f5f5;
+            --aecom-medium-gray: #666666;
+            --aecom-dark-gray: #333333;
+            --aecom-white: #ffffff;
+        }
+
+        /* Typography - AECOM Sans with fallbacks */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', 'Arial', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--aecom-dark-gray);
+            background-color: var(--aecom-white);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Search Section */
+        .search-section {
+            background: var(--aecom-light-gray);
+            padding: 32px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .search-container {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid var(--aecom-earth-green);
+            border-radius: 4px;
+            font-size: 16px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            border-color: var(--aecom-coral-orange);
+            box-shadow: 0 0 0 3px rgba(229, 39, 19, 0.1);
+        }
+
+        .search-button {
+            background: var(--aecom-coral-orange);
+            color: var(--aecom-white);
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .search-button:hover {
+            background: #c41e0f;
+            transform: translateY(-1px);
+        }
+
+        .filter-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .filter-tag {
+            background: var(--aecom-white);
+            border: 1px solid var(--aecom-earth-green);
+            color: var(--aecom-earth-green);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-tag:hover,
+        .filter-tag.active {
+            background: var(--aecom-earth-green);
+            color: var(--aecom-white);
+        }
+
+        .results-info {
+            padding: 16px 0;
+            color: var(--aecom-medium-gray);
+            font-size: 14px;
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 48px 24px;
+            color: var(--aecom-medium-gray);
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            border: 3px solid var(--aecom-light-gray);
+            border-radius: 50%;
+            border-top-color: var(--aecom-earth-green);
+            animation: spin 1s linear infinite;
+            margin-bottom: 16px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Error State */
+        .error {
+            background: #fee;
+            border: 1px solid #fcc;
+            color: #a00;
+            padding: 16px;
+            border-radius: 4px;
+            margin: 24px 0;
+        }
+
+        /* Glossary Content */
+        .glossary-content {
+            padding: 32px 0;
+        }
+
+        .alphabet-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .alphabet-link {
+            display: block;
+            width: 32px;
+            height: 32px;
+            text-align: center;
+            line-height: 32px;
+            color: var(--aecom-earth-green);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .alphabet-link:hover,
+        .alphabet-link.active {
+            background: var(--aecom-earth-green);
+            color: var(--aecom-white);
+        }
+
+        .term-list {
+            display: grid;
+            gap: 24px;
+        }
+
+        .term-item {
+            background: var(--aecom-white);
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .term-item:hover {
+            box-shadow: 0 4px 12px rgba(0, 135, 104, 0.1);
+            border-color: var(--aecom-earth-green);
+        }
+
+        .term-name {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--aecom-midnight-teal);
+            margin-bottom: 8px;
+        }
+
+        .term-definition {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            color: var(--aecom-dark-gray);
+        }
+
+        .term-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .term-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .term-tag {
+            background: var(--aecom-lime-green);
+            color: var(--aecom-midnight-teal);
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .term-reference {
+            color: var(--aecom-medium-gray);
+            font-size: 12px;
+            font-style: italic;
+            margin-left: auto;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 48px 24px;
+            color: var(--aecom-medium-gray);
+        }
+
+        .no-results h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+            color: var(--aecom-midnight-teal);
+        }
+
+        .footer {
+            background: var(--aecom-midnight-teal);
+            color: var(--aecom-white);
+            padding: 24px 0;
+            text-align: center;
+            margin-top: 48px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 16px;
+            }
+            
+            .search-container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .alphabet-nav {
+                justify-content: center;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Search terms, definitions, or references..."
+                    aria-label="Search glossary terms"
+                >
+                <button class="search-button" onclick="performSearch()" aria-label="Search">
+                    Search
+                </button>
+            </div>
+            
+            <div class="filter-tags" id="filterTags">
+                <!-- Filter tags will be populated by JavaScript -->
+            </div>
+            
+            <div class="results-info" id="resultsInfo">
+                Loading glossary terms...
+            </div>
+        </div>
+    </section>
+
+    <main class="glossary-content">
+        <div class="container">
+            <nav class="alphabet-nav" aria-label="Alphabetical navigation" id="alphabetNav">
+                <a href="#A" class="alphabet-link" data-letter="A">A</a>
+                <a href="#B" class="alphabet-link" data-letter="B">B</a>
+                <a href="#C" class="alphabet-link" data-letter="C">C</a>
+                <a href="#D" class="alphabet-link" data-letter="D">D</a>
+                <a href="#E" class="alphabet-link" data-letter="E">E</a>
+                <a href="#F" class="alphabet-link" data-letter="F">F</a>
+                <a href="#G" class="alphabet-link" data-letter="G">G</a>
+                <a href="#H" class="alphabet-link" data-letter="H">H</a>
+                <a href="#I" class="alphabet-link" data-letter="I">I</a>
+                <a href="#J" class="alphabet-link" data-letter="J">J</a>
+                <a href="#K" class="alphabet-link" data-letter="K">K</a>
+                <a href="#L" class="alphabet-link" data-letter="L">L</a>
+                <a href="#M" class="alphabet-link" data-letter="M">M</a>
+                <a href="#N" class="alphabet-link" data-letter="N">N</a>
+                <a href="#O" class="alphabet-link" data-letter="O">O</a>
+                <a href="#P" class="alphabet-link" data-letter="P">P</a>
+                <a href="#Q" class="alphabet-link" data-letter="Q">Q</a>
+                <a href="#R" class="alphabet-link" data-letter="R">R</a>
+                <a href="#S" class="alphabet-link" data-letter="S">S</a>
+                <a href="#T" class="alphabet-link" data-letter="T">T</a>
+                <a href="#U" class="alphabet-link" data-letter="U">U</a>
+                <a href="#V" class="alphabet-link" data-letter="V">V</a>
+                <a href="#W" class="alphabet-link" data-letter="W">W</a>
+                <a href="#X" class="alphabet-link" data-letter="X">X</a>
+                <a href="#Y" class="alphabet-link" data-letter="Y">Y</a>
+                <a href="#Z" class="alphabet-link" data-letter="Z">Z</a>
+            </nav>
+
+            <!-- Loading State -->
+            <div class="loading" id="loadingState">
+                <div class="loading-spinner"></div>
+                <p>Loading glossary terms...</p>
+            </div>
+
+            <!-- Error State -->
+            <div class="error" id="errorState" style="display: none;">
+                <h3>Unable to load glossary</h3>
+                <p>Please check that the glossary-terms.json file is in the correct location.</p>
+            </div>
+
+            <!-- Terms Container -->
+            <div class="term-list" id="termList" style="display: none;">
+                <!-- Terms will be populated by JavaScript -->
+            </div>
+
+            <!-- No Results State -->
+            <div class="no-results" id="noResults" style="display: none;">
+                <h3>No results found</h3>
+                <p>Try adjusting your search terms or filters</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AECOM. All rights reserved. | Sustainability & Construction Glossary</p>
+        </div>
+    </footer>
+
+    <script>
+        // Global variables
+        let glossaryData = [];
+        let filteredData = [];
+        let currentFilter = 'all';
+        let isLoading = true;
+
+        // Configuration
+        const config = {
+            dataSource: './data/glossary-terms.json', // Adjust path as needed
+            fallbackDataSource: './glossary-terms.json' // Fallback location
+        };
+
+        // Initialize the glossary
+        async function initGlossary() {
+            try {
+                await loadGlossaryData();
+                setupUI();
+                setupEventListeners();
+                renderTerms(glossaryData);
+                updateResultsInfo(glossaryData.length, glossaryData.length);
+            } catch (error) {
+                console.error('Failed to initialize glossary:', error);
+                showError();
+            }
+        }
+
+        // Load glossary data from JSON
+        async function loadGlossaryData() {
+            try {
+                // Try primary data source first
+                let response = await fetch(config.dataSource);
+                
+                // If primary fails, try fallback
+                if (!response.ok) {
+                    response = await fetch(config.fallbackDataSource);
+                }
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                glossaryData = data.terms || [];
+                filteredData = [...glossaryData];
+                
+                console.log(`Loaded ${glossaryData.length} terms from glossary`);
+                
+            } catch (error) {
+                console.error('Error loading glossary data:', error);
+                // Use fallback data if JSON fails to load
+                glossaryData = getFallbackData();
+                filteredData = [...glossaryData];
+            }
+        }
+
+        // Setup UI elements
+        function setupUI() {
+            isLoading = false;
+            
+            // Hide loading state
+            document.getElementById('loadingState').style.display = 'none';
+            document.getElementById('termList').style.display = 'block';
+            
+            // Setup filter tags
+            setupFilterTags();
+        }
+
+        // Setup filter tags dynamically
+        function setupFilterTags() {
+            const filterContainer = document.getElementById('filterTags');
+            const categories = [...new Set(glossaryData.map(term => term.category))].sort();
+            
+            const filtersHTML = [
+                '<button class="filter-tag active" data-filter="all">All terms</button>',
+                ...categories.map(category => 
+                    `<button class="filter-tag" data-filter="${category}">${category}</button>`
+                )
+            ].join('');
+            
+            filterContainer.innerHTML = filtersHTML;
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            const searchInput = document.getElementById('searchInput');
+            
+            // Search input
+            searchInput.addEventListener('input', debounce(performSearch, 300));
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    performSearch();
+                }
+            });
+
+            // Filter tags (using event delegation)
+            document.getElementById('filterTags').addEventListener('click', function(e) {
+                if (e.target.classList.contains('filter-tag')) {
+                    document.querySelectorAll('.filter-tag').forEach(tag => tag.classList.remove('active'));
+                    e.target.classList.add('active');
+                    currentFilter = e.target.dataset.filter;
+                    performSearch();
+                }
+            });
+
+            // Alphabet navigation
+            document.getElementById('alphabetNav').addEventListener('click', function(e) {
+                if (e.target.classList.contains('alphabet-link')) {
+                    e.preventDefault();
+                    const letter = e.target.dataset.letter;
+                    filterByLetter(letter);
+                    
+                    document.querySelectorAll('.alphabet-link').forEach(link => link.classList.remove('active'));
+                    e.target.classList.add('active');
+                }
+            });
+        }
+
+        // Render terms to the DOM
+        function renderTerms(terms) {
+            const termList = document.getElementById('termList');
+            const noResults = document.getElementById('noResults');
+            
+            if (terms.length === 0) {
+                termList.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            termList.style.display = 'block';
+            
+            const termsHTML = terms.map(term => {
+                const tagsHTML = term.tags.map(tag => 
+                    `<span class="term-tag">${tag}</span>`
+                ).join('');
+                
+                return `
+                    <div class="term-item" data-term="${term.term.toLowerCase()}" data-category="${term.category.toLowerCase()}">
+                        <h3 class="term-name">${term.term}</h3>
+                        <p class="term-definition">${term.definition}</p>
+                        <div class="term-meta">
+                            <div class="term-tags">${tagsHTML}</div>
+                            <div class="term-reference">${term.reference}</div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            termList.innerHTML = termsHTML;
+        }
+
+        // Update results information
+        function updateResultsInfo(showing, total) {
+            const resultsInfo = document.getElementById('resultsInfo');
+            
+            if (isLoading) {
+                resultsInfo.textContent = 'Loading glossary terms...';
+                return;
+            }
+            
+            if (showing === total) {
+                resultsInfo.innerHTML = `Showing all <strong>${total}</strong> terms`;
+            } else {
+                resultsInfo.innerHTML = `Showing <strong>${showing}</strong> of <strong>${total}</strong> terms`;
+            }
+        }
+
+        // Perform search
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            
+            let filtered = [...glossaryData];
+
+            // Apply text search
+            if (searchTerm) {
+                filtered = filtered.filter(term => 
+                    term.term.toLowerCase().includes(searchTerm) ||
+                    term.definition.toLowerCase().includes(searchTerm) ||
+                    term.tags.some(tag => tag.toLowerCase().includes(searchTerm)) ||
+                    term.reference.toLowerCase().includes(searchTerm)
+                );
+            }
+
+            // Apply category filter
+            if (currentFilter !== 'all') {
+                filtered = filtered.filter(term => 
+                    term.category.toLowerCase() === currentFilter.toLowerCase()
+                );
+            }
+
+            filteredData = filtered;
+            renderTerms(filtered);
+            updateResultsInfo(filtered.length, glossaryData.length);
+        }
+
+        // Filter by letter
+        function filterByLetter(letter) {
+            const filtered = glossaryData.filter(term => 
+                term.term.charAt(0).toLowerCase() === letter.toLowerCase()
+            );
+            
+            renderTerms(filtered);
+            updateResultsInfo(filtered.length, glossaryData.length);
+            
+            // Clear search input and reset filter
+            document.getElementById('searchInput').value = '';
+            document.querySelectorAll('.filter-tag').forEach(tag => {
+                tag.classList.remove('active');
+                if (tag.dataset.filter === 'all') {
+                    tag.classList.add('active');
+                }
+            });
+            currentFilter = 'all';
+        }
+
+        // Show error state
+        function showError() {
+            document.getElementById('loadingState').style.display = 'none';
+            document.getElementById('errorState').style.display = 'block';
+            document.getElementById('resultsInfo').textContent = 'Error loading glossary data';
+        }
+
+        // Debounce function for search
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Fallback data in case JSON loading fails
+        function getFallbackData() {
+            return [
+                {
+                    "id": "loading-error",
+                    "term": "Data Loading Error",
+                    "definition": "Unable to load glossary data from external file. Please ensure glossary-terms.json is accessible.",
+                    "tags": ["Error", "System"],
+                    "reference": "System message",
+                    "category": "System"
+                }
+            ];
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', initGlossary);
+    </script>
+</body>
+</html>
