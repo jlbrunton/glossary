@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-26",
+    "description": "AECOM Sustainability & Construction Glossary Terms",
+    "totalTerms": 68
+  },
+  "categories": [
+    "Carbon Management",
+    "Building Design",
+    "Circular Economy",
+    "Standards",
+    "Materials",
+    "Assessment",
+    "Policy",
+    "Tools",
+    "Energy",
+    "Climate",
+    "Management",
+    "Construction",
+    "Biodiversity",
+    "Environmental"
+  ],
+  "terms": [
+    {
+      "id": "accountability",
+      "term": "Accountability",
+      "definition": "The unavoidable duty to explain the ways in which an individual or group has carried out, or caused to be carried out, the obligations placed upon itself by law, a governing body or constitutional document.",
+      "tags": ["Management", "Governance"],
+      "reference": "Corporate governance frameworks; ISO 26000 Guidance on Social Responsibility",
+      "category": "Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "adaptability",
+      "term": "Adaptability",
+      "definition": "The ability of a building to be easily altered to prolong its life, for instance by alteration, addition, or contraction, to suit new uses or patterns of use.",
+      "tags": ["Building Design", "Flexibility", "Lifecycle Management"],
+      "reference": "Climate jargon buster, Arup (2021); ISO 20887:2020",
+      "category": "Building Design",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "aecom-decarbonisation-policy",
+      "term": "AECOM Decarbonisation Policy",
+      "definition": "AECOM's policy which sets out our commitment as a company to maximise opportunities for whole life carbon reductions at all stages of the delivery process.",
+      "tags": ["Policy", "Carbon Management"],
+      "reference": "AECOM internal policy documentation",
+      "category": "Policy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "aecomzero",
+      "term": "AECOMZero",
+      "definition": "AECOMzero is an integrated parametric software platform compatible with industry standards, focusing on sustainable design optimization and carbon assessment throughout the project lifecycle.",
+      "tags": ["Tools", "Carbon Management", "Software"],
+      "reference": "AECOM internal tool documentation",
+      "category": "Tools",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "anaerobic-digestion",
+      "term": "Anaerobic Digestion",
+      "definition": "Microbial breakdown of organic matter in the absence of oxygen. In a circular economy, anaerobic digestion can be used to convert food by-products, sewage sludge, and other biodegradable materials into digestates that can be used as soil enhancers and biogas.",
+      "tags": ["Circular Economy", "Waste Management", "Energy"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "avoid",
+      "term": "Avoid",
+      "definition": "Principal #1 of the PAS2080:2023 carbon reduction hierarchy; 'Align the outcomes of the project and/or specific design to avoid unnecessary carbon emissions and maximize value.'",
+      "tags": ["Carbon Management", "PAS 2080", "Strategy"],
+      "reference": "PAS 2080:2023 Carbon Management in Infrastructure",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "baseline",
+      "term": "Baseline",
+      "definition": "The scenario for what carbon emissions and removals would have been in the absence of planned measures or interventions. Used as a reference point for measuring improvement.",
+      "tags": ["Assessment", "Carbon Management", "Measurement"],
+      "reference": "PAS 2080:2023; Carbon management protocols; IPCC Guidelines",
+      "category": "Assessment",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "biodiversity-net-gain",
+      "term": "Biodiversity Net Gain (BNG)",
+      "definition": "An approach to development that leaves biodiversity in a better state than before, ensuring measurable improvements to biodiversity through standardized metrics.",
+      "tags": ["Biodiversity", "Assessment", "Environmental"],
+      "reference": "UK Environment Act 2021; Natural England BNG guidance",
+      "category": "Biodiversity",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "biogenic-carbon",
+      "term": "Biogenic Carbon",
+      "definition": "Carbon sequestered by biological processes and stored in biomaterials such as timber. This carbon can be released or remain stored depending on end-of-life treatment.",
+      "tags": ["Carbon Management", "Materials", "Biology"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021); Climate jargon buster, Arup (2021)",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "biological-cycle",
+      "term": "Biological Cycle",
+      "definition": "The processes - such as composting and anaerobic digestion - that together help to regenerate natural capital. The only materials suitable for these processes are those that can be safely returned to the biosphere.",
+      "tags": ["Circular Economy", "Natural Systems", "Regeneration"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "breeam",
+      "term": "BREEAM",
+      "definition": "Building Research Establishment Environmental Assessment Method - the world's leading sustainability assessment method for masterplanning, infrastructure and buildings.",
+      "tags": ["Standards", "Building Assessment", "Sustainability"],
+      "reference": "BRE Global; BREEAM technical standards",
+      "category": "Standards",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "carbon",
+      "term": "Carbon",
+      "definition": "A chemical element with symbol C. In sustainability contexts, represents greenhouse gas emissions, primarily carbon dioxide (CO2), that contribute to global warming.",
+      "tags": ["Carbon Management", "Climate", "Chemistry"],
+      "reference": "Climate jargon buster, Arup (2021); IPCC Assessment Reports",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "carbon-border-adjustment-mechanism",
+      "term": "Carbon Border Adjustment Mechanism (CBAM)",
+      "definition": "A policy implemented by the European Union to address climate change by placing a fair price on carbon emissions associated with imports from countries with less stringent climate policies.",
+      "tags": ["Policy", "Carbon Management", "Trade"],
+      "reference": "EU CBAM Regulation 2023/956; European Commission documentation",
+      "category": "Policy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "carbon-capture-utilisation-storage",
+      "term": "Carbon Capture Utilisation and Storage (CCUS)",
+      "definition": "Technologies that capture carbon dioxide emissions from sources like power plants and industrial facilities, then either utilize the CO2 for other purposes or store it underground to prevent atmospheric release.",
+      "tags": ["Technology", "Carbon Management", "Climate"],
+      "reference": "IPCC Special Report on CCS; IEA CCUS reports",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "carbon-emissions",
+      "term": "Carbon Emissions",
+      "definition": "The release of carbon dioxide and other greenhouse gases into the atmosphere as a result of human activities, primarily from burning fossil fuels.",
+      "tags": ["Carbon Management", "Climate", "Environmental"],
+      "reference": "IPCC Assessment Reports; Climate science literature",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "carbon-footprint",
+      "term": "Carbon Footprint",
+      "definition": "The total amount of greenhouse gases produced directly and indirectly by human activities, expressed as carbon dioxide equivalent (CO2e).",
+      "tags": ["Carbon Management", "Assessment", "Climate"],
+      "reference": "ISO 14067:2018; Carbon Trust methodologies",
+      "category": "Assessment",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "carbon-management",
+      "term": "Carbon Management",
+      "definition": "The systematic approach to measuring, reducing, and managing greenhouse gas emissions throughout the lifecycle of projects, products, or organizational activities.",
+      "tags": ["Carbon Management", "Strategy", "Management"],
+      "reference": "PAS 2080:2023; Carbon management standards",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "carbon-offsetting",
+      "term": "Carbon Offsetting",
+      "definition": "The use of GHG emission reductions or removals to compensate for CO2 emissions. Should only be used after maximizing direct emission reductions.",
+      "tags": ["Carbon Management", "Climate", "Policy"],
+      "reference": "Climate jargon buster, Arup (2021); Voluntary Carbon Market standards",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "circular-economy",
+      "term": "Circular Economy",
+      "definition": "A systems solution framework that tackles global challenges like climate change, biodiversity loss, waste, and pollution based on three principles: eliminate waste and pollution, circulate products and materials, and regenerate nature.",
+      "tags": ["Circular Economy", "Sustainability", "Systems Thinking"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021), p.3",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "climate-change-mitigation",
+      "term": "Climate Change Mitigation",
+      "definition": "Actions to limit the magnitude and rate of long-term climate change by reducing greenhouse gas emissions and enhancing carbon sinks.",
+      "tags": ["Climate", "Mitigation", "Policy"],
+      "reference": "IPCC Assessment Reports; UNFCCC documentation",
+      "category": "Climate",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "composting",
+      "term": "Composting",
+      "definition": "Microbial breakdown of organic matter in the presence of oxygen. In a circular economy, composting can be used to convert food by-products and other biodegradeable materials into compost, which can be used as a soil enhancer.",
+      "tags": ["Circular Economy", "Waste Management", "Soil Health"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "cross-laminated-timber",
+      "term": "Cross-laminated Timber (CLT)",
+      "definition": "Engineered wood product made from layers of lumber boards stacked in alternating directions and glued together, providing structural strength for construction.",
+      "tags": ["Materials", "Construction", "Timber"],
+      "reference": "Timber construction standards; CLT technical specifications",
+      "category": "Materials",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "decarbonisation",
+      "term": "Decarbonisation",
+      "definition": "The process of reducing carbon dioxide emissions associated with economic activity, typically by transitioning to renewable energy sources and improving efficiency.",
+      "tags": ["Carbon Management", "Strategy", "Transition"],
+      "reference": "Climate policy frameworks; Decarbonisation strategies",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "design-for-adaptability",
+      "term": "Design for Adaptability",
+      "definition": "Designing to support the continued use of an asset by allowing for and accommodating potential future adaptations.",
+      "tags": ["Building Design", "Adaptability", "Future-proofing"],
+      "reference": "ISO 20887:2020",
+      "category": "Building Design",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "design-for-deconstruction",
+      "term": "Design for Deconstruction (DfD)",
+      "definition": "Design decisions that increase the quality and quantity of materials that can be reused at the end of a building's life. Also known as design for disassembly.",
+      "tags": ["Building Design", "Circular Economy", "End-of-life"],
+      "reference": "BRE Design for Deconstruction guidance",
+      "category": "Building Design",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "durability",
+      "term": "Durability",
+      "definition": "The ability of a product, component or material to remain functional and relevant when used as intended. Durability often applies to the physical attributes of a product, though with some products durability can be technological or emotional.",
+      "tags": ["Materials", "Performance", "Longevity"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Materials",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "embodied-carbon",
+      "term": "Embodied Carbon",
+      "definition": "The GHG emissions associated with materials and construction processes throughout the whole lifecycle of an asset (Modules A1–A5, B1–B5 and C1–C4).",
+      "tags": ["Carbon Management", "Assessment", "Building Lifecycle"],
+      "reference": "Climate jargon buster, Arup (2021); BS EN 15804",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "environmental-product-declaration",
+      "term": "Environmental Product Declaration (EPD)",
+      "definition": "A third-party verified, standardised document that provides the environmental impact of a product, based on data from a life cycle assessment.",
+      "tags": ["Assessment", "Standards", "Products"],
+      "reference": "Climate jargon buster, Arup (2021); BS EN 15804; ISO 14025",
+      "category": "Assessment",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "finite-materials",
+      "term": "Finite Materials",
+      "definition": "Materials that are non-renewable on timescales relevant to the economy, i.e. not geological timescales. Examples include: metals and minerals; fossil forms of carbon such as oil, coal, and natural gas; and sand, rocks, and stones.",
+      "tags": ["Materials", "Resources", "Non-renewable"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Materials",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "greenhouse-gases",
+      "term": "Greenhouse Gases (GHG)",
+      "definition": "Gases that trap heat in the atmosphere, including carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and fluorinated gases.",
+      "tags": ["Climate", "Environmental", "Atmospheric"],
+      "reference": "IPCC Assessment Reports; Climate science literature",
+      "category": "Climate",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "improve",
+      "term": "Improve",
+      "definition": "Principal #3 of the PAS2080:2023 carbon reduction hierarchy; 'Optimize the efficiency of the planned design solution to reduce carbon emissions while maximizing value.'",
+      "tags": ["Carbon Management", "PAS 2080", "Optimization"],
+      "reference": "PAS 2080:2023 Carbon Management in Infrastructure",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "leed",
+      "term": "LEED",
+      "definition": "Leadership in Energy and Environmental Design - Green building certification program that recognizes best-in-class building strategies and practices for sustainable building design and construction.",
+      "tags": ["Standards", "Building Assessment", "Certification"],
+      "reference": "USGBC LEED documentation; Green building standards",
+      "category": "Standards",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "life-cycle-assessment",
+      "term": "Life Cycle Assessment (LCA)",
+      "definition": "A methodology to quantify the environmental impacts of products, services, or systems throughout their entire lifecycle from raw material extraction to end-of-life.",
+      "tags": ["Assessment", "Methodology", "Environmental"],
+      "reference": "ISO 14040 series; LCA methodology standards",
+      "category": "Assessment",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "linear-economy",
+      "term": "Linear Economy",
+      "definition": "An economy in which finite resources are extracted to make products that are used - generally not to their full potential - and then thrown away ('take-make-waste'). It is a wasteful and polluting system that degrades natural systems.",
+      "tags": ["Economic Model", "Waste", "Unsustainable"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "maintain",
+      "term": "Maintain",
+      "definition": "Keep a product in its existing state of quality, functionally and/or cosmetically, to guard against failure or decline. It is a practice that retains the highest value of a product by extending its use period.",
+      "tags": ["Maintenance", "Value Retention", "Lifecycle"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "net-zero",
+      "term": "Net Zero",
+      "definition": "Achieving balance between greenhouse gases emitted and removed from the atmosphere, resulting in no net increase in atmospheric GHG concentrations.",
+      "tags": ["Climate", "Targets", "Carbon Management"],
+      "reference": "Climate jargon buster, Arup (2021); Net zero frameworks",
+      "category": "Climate",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "non-virgin-materials",
+      "term": "Non-virgin Materials",
+      "definition": "Materials that have been previously used. This includes: materials in products that have been reused, refurbished or repaired; components that have been remanufactured; materials that have been recycled. Also referred to as secondary materials.",
+      "tags": ["Materials", "Recycling", "Secondary"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Materials",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "operational-carbon",
+      "term": "Operational Carbon",
+      "definition": "The GHG emissions arising from all energy and water consumed by an asset in use, over its lifecycle (Modules B6 and B7).",
+      "tags": ["Carbon Management", "Energy", "Building Operations"],
+      "reference": "Climate jargon buster, Arup (2021); BS EN 15804",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "pas-2080",
+      "term": "PAS 2080",
+      "definition": "British Standard specification for carbon management in infrastructure, providing framework for managing whole life carbon emissions.",
+      "tags": ["Standards", "Carbon Management", "Infrastructure"],
+      "reference": "PAS 2080:2023 Carbon Management in Infrastructure",
+      "category": "Standards",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "recyclability",
+      "term": "Recyclability",
+      "definition": "The ease with which a material can be recycled in practice and at scale.",
+      "tags": ["Materials", "Recycling", "Circular Economy"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Materials",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "recycle",
+      "term": "Recycle",
+      "definition": "Transform a product or component into its basic materials or substances and reprocess them into new materials. Embedded energy and value are lost in the process. In a circular economy, recycling is the last resort action.",
+      "tags": ["Circular Economy", "Materials", "Waste Management"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021), p.3",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "refurbish",
+      "term": "Refurbish",
+      "definition": "Return a product to good working order. This can include repairing or replacing components, updating specifications, and improving cosmetic appearance.",
+      "tags": ["Renovation", "Value Recovery", "Lifecycle"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "regenerative-production",
+      "term": "Regenerative Production",
+      "definition": "Regenerative production provides food and materials in ways that support positive outcomes for nature, which include but are not limited to: healthy and stable soils, improved local biodiversity, improved air and water quality.",
+      "tags": ["Regenerative Design", "Agriculture", "Natural Systems"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Environmental",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "remanufacture",
+      "term": "Remanufacture",
+      "definition": "Re-engineer products and components to as-new condition with the same, or improved, level of performance as a newly manufactured one. Remanufactured products or components are typically provided with a warranty that is equivalent to or better than that of the newly manufactured product.",
+      "tags": ["Manufacturing", "Value Recovery", "Quality"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Materials",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "renewable-energy",
+      "term": "Renewable Energy",
+      "definition": "Energy derived from resources that are not depleted on timescales relevant to the economy, i.e. not geological timescales. Examples include: wind, solar, hydropower, hydrothermal, ocean (wave and tidal), geothermal, and biogas from anaerobic digestion.",
+      "tags": ["Energy", "Renewable", "Climate"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Energy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "renewable-materials",
+      "term": "Renewable Materials",
+      "definition": "Materials that are continually replenished at a rate equal to or greater than the rate of depletion. Examples include: cotton, hemp, maize, wood, wool, leather, agricultural by-products, nitrogen, carbon dioxide, and sea salt.",
+      "tags": ["Materials", "Renewable", "Sustainable"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Materials",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "repair",
+      "term": "Repair",
+      "definition": "Operation by which a faulty or broken product or component is returned back to a usable state to fulfil its intended use.",
+      "tags": ["Maintenance", "Restoration", "Lifecycle"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "reuse",
+      "term": "Reuse",
+      "definition": "The repeated use of a product or component for its intended purpose without significant modification. Small adjustments and cleaning of the component or product may be necessary to prepare for the next use.",
+      "tags": ["Circular Economy", "Materials", "Value Retention"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "science-based-targets",
+      "term": "Science Based Targets (SBTs)",
+      "definition": "Emission reduction targets that are consistent with the pace recommended by climate scientists to limit the worst impacts of climate change.",
+      "tags": ["Climate", "Targets", "Science"],
+      "reference": "Science Based Targets initiative; Climate science frameworks",
+      "category": "Climate",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "scope-1",
+      "term": "Scope 1",
+      "definition": "Direct greenhouse gas emissions from sources owned or controlled by the company, such as fuel combustion in owned vehicles or facilities.",
+      "tags": ["Carbon Management", "Assessment", "Direct Emissions"],
+      "reference": "GHG Protocol Corporate Standard; Carbon Trust methodologies",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "scope-2",
+      "term": "Scope 2",
+      "definition": "Indirect emissions from the generation of purchased electricity, steam, heating and cooling consumed by the company.",
+      "tags": ["Carbon Management", "Assessment", "Indirect Emissions"],
+      "reference": "GHG Protocol Corporate Standard; Carbon Trust methodologies",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "scope-3",
+      "term": "Scope 3",
+      "definition": "All other indirect emissions that occur in a company's value chain, including business travel, employee commuting, purchased goods and services, and end-of-life treatment of sold products.",
+      "tags": ["Carbon Management", "Assessment", "Value Chain"],
+      "reference": "Climate jargon buster, Arup (2021); GHG Protocol Corporate Value Chain Standard",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "sequestration",
+      "term": "Sequestration",
+      "definition": "The removal and long-term storage of CO2 from the atmosphere in biomaterials such as timber or geological formations.",
+      "tags": ["Carbon Management", "Climate", "Materials"],
+      "reference": "Climate jargon buster, Arup (2021); IPCC carbon cycle documentation",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "sharing",
+      "term": "Sharing",
+      "definition": "The use of a product by multiple users. It is a practice that retains the highest value of a product by extending its use period.",
+      "tags": ["Circular Economy", "Efficiency", "Value"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "switch",
+      "term": "Switch",
+      "definition": "Principal #2 of the PAS2080:2023 carbon reduction hierarchy; 'Change the design to use solutions with lower carbon emissions while maximizing value.'",
+      "tags": ["Carbon Management", "PAS 2080", "Strategy"],
+      "reference": "PAS 2080:2023 Carbon Management in Infrastructure",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "technical-cycle",
+      "term": "Technical Cycle",
+      "definition": "The processes that products and materials flow through in order to maintain their highest possible value at all times. Materials suitable for these processes are those that are not consumed during use - such as metals, plastics and wood.",
+      "tags": ["Circular Economy", "Materials", "Value Chain"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "upfront-carbon",
+      "term": "Upfront Carbon",
+      "definition": "GHG emissions up to practical completion, excluding sequestration (Modules A1–A5). Represents the carbon 'debt' that must be 'paid back' through operational savings or sequestration.",
+      "tags": ["Carbon Management", "Construction", "Assessment"],
+      "reference": "Climate jargon buster, Arup (2021); Embodied carbon guides",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "virgin-materials",
+      "term": "Virgin Materials",
+      "definition": "Materials that have not yet been used in the economy. These include both finite materials (e.g. iron ore mined from the ground) and renewable resources (e.g. newly produced cotton).",
+      "tags": ["Materials", "Primary", "Resources"],
+      "reference": "Ellen MacArthur Foundation Circular Economy Glossary (2021)",
+      "category": "Materials",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "whole-life-carbon",
+      "term": "Whole-life Carbon (WLC)",
+      "definition": "The total of all GHG emissions and removals, both operational and embodied, over the lifecycle of an asset, including its disposal (Modules A–C). Potential benefits or loads from future energy recovery, reuse and recycling are reported separately (Module D).",
+      "tags": ["Carbon Management", "Lifecycle", "Assessment"],
+      "reference": "Climate jargon buster, Arup (2021); Whole life carbon guidance",
+      "category": "Carbon Management",
+      "dateAdded": "2025-01-26"
+    },
+    {
+      "id": "zero-carbon",
+      "term": "Zero Carbon",
+      "definition": "An asset, product or service that produces no carbon emissions and therefore no offsetting is required. Also known as carbon zero, absolute zero, or gross zero.",
+      "tags": ["Climate", "Targets", "Zero Emissions"],
+      "reference": "Climate jargon buster, Arup (2021)",
+      "category": "Climate",
+      "dateAdded": "2025-01-26"
+    }
+  ]
+}
