@@ -3,14 +3,16 @@
     "version": "2.0",
     "lastUpdated": "2025-06-28",
     "description": "Comprehensive Sustainability & Construction Glossary",
-    "totalTerms": 408,
+    "totalTerms": 416,
     "sources": [
       "Circular economy glossary",
       "Climate jargon buster",
       "Design for a Circular Economy",
       "LETI Embodied Carbon Primer",
       "PAS 2080:2023",
+      "PAS 2080:2023 Bibliography",
       "PAS 2080:2023; RICS Whole Life Carbon Assessment Professional Statement",
+      "RICS WLCA Professional Statement",
       "WBCSD Path to Alignment",
       "Westminster City Council Topic Paper: Retrofit first and reducing embodied carbon",
       "Whole life carbon assessment PS"
@@ -29,6 +31,2313 @@
     "Technology & Data"
   ],
   "terms": [
+    {
+      "id": "001",
+      "term": "Embodied Carbon (EC)",
+      "definition": "The GHG emissions associated with materials and construction processes throughout the whole lifecycle of an asset (Modules A1–A5, B1–B5 and C1–C4)",
+      "tags": [
+        "carbon",
+        "emissions",
+        "materials",
+        "construction"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "002",
+      "term": "Operational Carbon (OC)",
+      "definition": "The GHG emissions arising from all energy and water consumed by an asset in use, over its lifecycle (Modules B6 and B7)",
+      "tags": [
+        "carbon",
+        "emissions",
+        "energy",
+        "consumption",
+        "operation"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "003",
+      "term": "Whole-life Carbon (WLC)",
+      "definition": "The total of all GHG emissions and removals, both operational and embodied, over the lifecycle of an asset, including its disposal (Modules A–C). Potential benefits or loads from future energy recovery, reuse and recycling are reported separately (Module D)",
+      "tags": [
+        "carbon",
+        "lifecycle",
+        "emissions",
+        "total",
+        "benefits"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "004",
+      "term": "Net Zero",
+      "definition": "reduction of anthropogenic greenhouse gas emissions to zero or to a residual level that is consistent with reaching net zero emissions in eligible 1.5 °C pathways (hence time-bound) and neutralizing the impact of residual emissions (if any) by removing an equivalent volume of carbon",
+      "tags": [
+        "carbon",
+        "neutral",
+        "emissions",
+        "residual",
+        "pathways"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "005",
+      "term": "Zero Carbon",
+      "definition": "An asset product or service that produces no carbon emissions and therefore no offsetting is required. Also known as carbon zero absolute zero or gross zero",
+      "tags": [
+        "emissions",
+        "free",
+        "carbon",
+        "neutral"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "006",
+      "term": "Climate Positive",
+      "definition": "An activity that goes beyond net zero by achieving an overall reduction in GHGs in the atmosphere. Also referred to as carbon negative",
+      "tags": [
+        "carbon",
+        "reduction",
+        "atmospheric",
+        "greenhouse",
+        "gas"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "007",
+      "term": "Upfront Carbon",
+      "definition": "GHG emissions up to practical completion excluding sequestration (Modules A1–A5)",
+      "tags": [
+        "construction",
+        "emissions",
+        "embodied",
+        "carbon"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "008",
+      "term": "Sequestration",
+      "definition": "The removal and long-term storage of CO2 from the atmosphere in biomaterials such as timber. The carbon stored in these materials is known as biogenic carbon",
+      "tags": [
+        "carbon",
+        "storage",
+        "biomaterials",
+        "timber",
+        "biogenic"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "009",
+      "term": "Carbon Capture and Storage (CCS)",
+      "definition": "Process to capture the CO2 arising from fossil fuel combustion or industrial processes, transporting it to a storage site and storing it where it will not enter the atmosphere",
+      "tags": [
+        "carbon",
+        "capture",
+        "fossil",
+        "fuels",
+        "storage",
+        "transport"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "010",
+      "term": "Greenhouse Gas (GHG) Emissions",
+      "definition": "Emissions of gasses including carbon dioxide, methane and water vapour that trap heat in the atmosphere. The global warming potential (GWP) of these gasses is measured in CO2e (carbon dioxide equivalent)",
+      "tags": [
+        "greenhouse",
+        "gas",
+        "carbon",
+        "dioxide",
+        "methane",
+        "GWP"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "011",
+      "term": "Science-based Target",
+      "definition": "A target that is consistent with the pace recommended by climate scientists to limit the worst impacts of climate change",
+      "tags": [
+        "climate",
+        "science",
+        "targets",
+        "objectives",
+        "impacts"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "012",
+      "term": "Scope 1 2 and 3 Emissions",
+      "definition": "Classification boundaries for an organisation's GHG emissions. Scope 1: direct emissions from owned sources. Scope 2: indirect emissions from purchased energy. Scope 3: all other indirect emissions in value chain",
+      "tags": [
+        "emissions",
+        "scope",
+        "direct",
+        "indirect",
+        "owned",
+        "purchased"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "013",
+      "term": "Carbon Offsetting",
+      "definition": "The use of GHG emission reductions or removals to compensate for CO2 emissions",
+      "tags": [
+        "emissions",
+        "compensation",
+        "reduction",
+        "removals"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "014",
+      "term": "Lifecycle Assessment (LCA)",
+      "definition": "A method to quantify the carbon emissions and other environmental impacts such as acidification and air pollution of assets or products over their whole lifecycle",
+      "tags": [
+        "assessment",
+        "environmental",
+        "impact",
+        "lifecycle",
+        "quantify"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "015",
+      "term": "Environmental Product Declaration (EPD)",
+      "definition": "A third-party verified standardised document that provides the environmental impact of a product based on the data from an LCA",
+      "tags": [
+        "product",
+        "declaration",
+        "environmental",
+        "verification",
+        "LCA"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "016",
+      "term": "Lifecycle Stages/Modules",
+      "definition": "Each lifecycle module (A1 A2...) describes a distinct phase in the lifecycle of an asset and modules are grouped into stages",
+      "tags": [
+        "lifecycle",
+        "phases",
+        "modules",
+        "stages",
+        "distinct"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "017",
+      "term": "Module A0",
+      "definition": "Pre-construction stage covering project planning design and pre-construction activities",
+      "tags": [
+        "lifecycle",
+        "module",
+        "pre-construction",
+        "planning",
+        "design"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "018",
+      "term": "Module A1",
+      "definition": "Raw material extraction and supply covering extraction and processing of materials",
+      "tags": [
+        "lifecycle",
+        "module",
+        "raw",
+        "materials",
+        "extraction",
+        "supply"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "019",
+      "term": "Module A2",
+      "definition": "Transport to manufacturing plant covering transportation of raw materials to manufacturing facilities",
+      "tags": [
+        "lifecycle",
+        "module",
+        "transport",
+        "manufacturing",
+        "materials"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "020",
+      "term": "Module A3",
+      "definition": "Manufacturing and fabrication covering production processes to create construction products",
+      "tags": [
+        "lifecycle",
+        "module",
+        "manufacturing",
+        "fabrication",
+        "production"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "021",
+      "term": "Module A4",
+      "definition": "Transport to project site covering transportation of construction products to building site",
+      "tags": [
+        "lifecycle",
+        "module",
+        "transport",
+        "site",
+        "construction",
+        "products"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "022",
+      "term": "Module A5",
+      "definition": "Construction and installation process covering all on-site construction activities including waste",
+      "tags": [
+        "lifecycle",
+        "module",
+        "construction",
+        "installation",
+        "process",
+        "waste"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "023",
+      "term": "Module B1",
+      "definition": "Use stage direct emissions and removals from construction products such as refrigerant leakage or concrete carbonation",
+      "tags": [
+        "lifecycle",
+        "module",
+        "use",
+        "direct",
+        "emissions",
+        "products"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "024",
+      "term": "Module B2",
+      "definition": "Maintenance covering material-related emissions from maintenance activities over reference study period",
+      "tags": [
+        "lifecycle",
+        "module",
+        "maintenance",
+        "materials",
+        "emissions"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "025",
+      "term": "Module B3",
+      "definition": "Repair covering material-related emissions from repair activities of construction products over reference study period",
+      "tags": [
+        "lifecycle",
+        "module",
+        "repair",
+        "materials",
+        "emissions"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "026",
+      "term": "Module B4",
+      "definition": "Replacement covering material-related emissions from replacement of construction products over reference study period",
+      "tags": [
+        "lifecycle",
+        "module",
+        "replacement",
+        "materials",
+        "emissions"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "027",
+      "term": "Module B5",
+      "definition": "Refurbishment covering planned refurbishment or change in performance of asset planned at project outset",
+      "tags": [
+        "lifecycle",
+        "module",
+        "refurbishment",
+        "planned",
+        "performance"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "028",
+      "term": "Module B6",
+      "definition": "Operational energy covering energy use of asset over in-use stage",
+      "tags": [
+        "lifecycle",
+        "module",
+        "operational",
+        "energy",
+        "use"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "029",
+      "term": "Module B7",
+      "definition": "Operational water covering water use over in-use stage",
+      "tags": [
+        "lifecycle",
+        "module",
+        "operational",
+        "water",
+        "use"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "030",
+      "term": "Module B8",
+      "definition": "Other operational covering user activities not included elsewhere such as vehicle use or commuting impacts",
+      "tags": [
+        "lifecycle",
+        "module",
+        "other",
+        "operational",
+        "user",
+        "activities"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "031",
+      "term": "Module C1",
+      "definition": "Deconstruction and demolition covering impacts during end-of-life demolition or deconstruction activities",
+      "tags": [
+        "lifecycle",
+        "module",
+        "deconstruction",
+        "demolition",
+        "end-of-life"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "032",
+      "term": "Module C2",
+      "definition": "Transport to disposal facility covering transportation of waste materials to disposal or processing facilities",
+      "tags": [
+        "lifecycle",
+        "module",
+        "transport",
+        "disposal",
+        "waste",
+        "materials"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "033",
+      "term": "Module C3",
+      "definition": "Waste processing for reuse recovery or recycling covering processing of waste materials for recovery",
+      "tags": [
+        "lifecycle",
+        "module",
+        "waste",
+        "processing",
+        "recovery",
+        "recycling"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "034",
+      "term": "Module C4",
+      "definition": "Disposal covering final disposal of waste materials including landfill or incineration",
+      "tags": [
+        "lifecycle",
+        "module",
+        "disposal",
+        "waste",
+        "landfill",
+        "incineration"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "035",
+      "term": "Module D1",
+      "definition": "Benefits and loads beyond system boundary from reuse recycling and energy recovery of materials",
+      "tags": [
+        "lifecycle",
+        "module",
+        "benefits",
+        "loads",
+        "reuse",
+        "recycling"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "036",
+      "term": "Module D2",
+      "definition": "Benefits and loads beyond system boundary from exported utilities such as generated electricity or treated water",
+      "tags": [
+        "lifecycle",
+        "module",
+        "benefits",
+        "utilities",
+        "electricity",
+        "water"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "037",
+      "term": "Circular Economy",
+      "definition": "A circular economy is based on the principles of designing out waste and pollution and keeping products and materials in use, e.g. refurbishment, reuse, design for adaptability/deconstruction",
+      "tags": [
+        "circular",
+        "waste",
+        "pollution",
+        "design",
+        "principles"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "038",
+      "term": "Design for Adaptability",
+      "definition": "Designing to support the continued use of an asset by allowing for and accommodating potential future adaptations",
+      "tags": [
+        "design",
+        "adaptability",
+        "future",
+        "use",
+        "accommodating"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "039",
+      "term": "Design for Deconstruction (DfD)",
+      "definition": "Design decisions that increase the quality and quantity of materials that can be reused at the end of a building's life. Also known as design for disassembly",
+      "tags": [
+        "design",
+        "deconstruction",
+        "disassembly",
+        "reuse",
+        "quality"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "040",
+      "term": "Regenerative Design",
+      "definition": "Design that achieves net positive impacts on health, society and the environment, often being inspired by the circular, low-energy systems that exist in nature",
+      "tags": [
+        "regenerative",
+        "positive",
+        "impact",
+        "natural",
+        "systems"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Environmental & Nature",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "041",
+      "term": "Recyclability",
+      "definition": "Indicates how easy a product is to separate into its material components and to convert into a new item",
+      "tags": [
+        "recycling",
+        "separation",
+        "components",
+        "conversion"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "042",
+      "term": "Reuse",
+      "definition": "To use a product again while largely maintaining its original form. Unlike recycling reuse requires minimal reprocessing",
+      "tags": [
+        "reuse",
+        "original",
+        "form",
+        "minimal",
+        "processing"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "043",
+      "term": "Recycled Content (RC)",
+      "definition": "A measure of how much material within a product is from a non-virgin source",
+      "tags": [
+        "recycled",
+        "content",
+        "non-virgin",
+        "materials",
+        "measure"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "044",
+      "term": "Recycling Rate (RR)",
+      "definition": "Indicates how much of a product is collected and returned to the manufacturing process",
+      "tags": [
+        "recycling",
+        "collection",
+        "manufacturing",
+        "process"
+      ],
+      "reference": "Climate jargon buster",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "045",
+      "term": "Downcycling",
+      "definition": "The transformation of products and materials into lower quality and/or lower value products and materials",
+      "tags": [
+        "downcycling",
+        "lower",
+        "quality",
+        "value",
+        "transformation"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "046",
+      "term": "Upcycling",
+      "definition": "To transform products and materials into higher quality and/or higher value products and materials",
+      "tags": [
+        "upcycling",
+        "higher",
+        "quality",
+        "value",
+        "transformation"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "047",
+      "term": "Backfilling",
+      "definition": "Any recovery operation of suitable non-hazardous waste for the purposes of reclamation in excavated areas or for engineering purposes in landscaping",
+      "tags": [
+        "backfilling",
+        "recovery",
+        "excavation",
+        "engineering",
+        "landscaping"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "048",
+      "term": "Composting",
+      "definition": "The aerobic decomposition of bio-waste in a way that fulfils a high level of environment protection and results in output which meets relevant high-quality standards",
+      "tags": [
+        "composting",
+        "aerobic",
+        "decomposition",
+        "bio-waste",
+        "protection"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "049",
+      "term": "Recycle",
+      "definition": "The conversion of waste into new materials and products by remanufacturing in ways that reduce demands for extracting raw materials from the natural environment",
+      "tags": [
+        "recycling",
+        "waste",
+        "conversion",
+        "materials",
+        "products",
+        "remanufacturing"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "050",
+      "term": "Remanufacturing",
+      "definition": "To make a new or different product and is more closely associated with recycling than reuse",
+      "tags": [
+        "remanufacturing",
+        "new",
+        "product",
+        "recycling"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "051",
+      "term": "Reprocessing",
+      "definition": "A general term for treatment of materials to make them reusable",
+      "tags": [
+        "reprocessing",
+        "treatment",
+        "materials",
+        "reusable"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "052",
+      "term": "Building Information Modelling (BIM)",
+      "definition": "A digital tool to create and communicate three-dimensional building information and a complex repository of building information contributed by many professionals",
+      "tags": [
+        "BIM",
+        "digital",
+        "tool",
+        "building",
+        "information",
+        "repository"
+      ],
+      "reference": "WBCSD Path to Alignment",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "053",
+      "term": "Bill of Materials (BOM)",
+      "definition": "A list of materials typically exported from BIM files to assess the embodied carbon impacts",
+      "tags": [
+        "BOM",
+        "materials",
+        "list",
+        "carbon",
+        "assessment",
+        "BIM"
+      ],
+      "reference": "WBCSD Path to Alignment",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "054",
+      "term": "Asset",
+      "definition": "Physical entity forming part of a network and/or system that has potential or actual value to an organization and its stakeholders",
+      "tags": [
+        "asset",
+        "physical",
+        "entity",
+        "network",
+        "value",
+        "stakeholders"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "055",
+      "term": "Asset Owner/Manager",
+      "definition": "Organization that manages and is responsible for providing operating and maintaining a buildings and infrastructure network or asset",
+      "tags": [
+        "asset",
+        "owner",
+        "manager",
+        "organization",
+        "infrastructure"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "056",
+      "term": "Baseline",
+      "definition": "Scenario for what carbon emissions and removals would have been in the absence of planned measures aiming to reduce emissions",
+      "tags": [
+        "baseline",
+        "emissions",
+        "scenario",
+        "measures",
+        "planned"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "057",
+      "term": "Building",
+      "definition": "Structure usually enclosed by walls and a roof constructed to provide support or shelter for intended occupancy",
+      "tags": [
+        "building",
+        "structure",
+        "walls",
+        "roof",
+        "shelter",
+        "occupancy"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "058",
+      "term": "Built Environment",
+      "definition": "Collection of human-made or induced physical objects located in a particular area or region",
+      "tags": [
+        "built",
+        "environment",
+        "human-made",
+        "physical",
+        "objects"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "059",
+      "term": "Decarbonization",
+      "definition": "Process by which organizations sectors or other entities aim to achieve zero fossil carbon emissions",
+      "tags": [
+        "decarbonization",
+        "zero",
+        "fossil",
+        "carbon",
+        "organizations"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "060",
+      "term": "Activity",
+      "definition": "Set of actions that consume time and resources and whose performance is necessary to achieve or contribute to the realization of one or more outcomes",
+      "tags": [
+        "activity",
+        "actions",
+        "resources",
+        "outcomes",
+        "performance"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "061",
+      "term": "Activity Data",
+      "definition": "Data based on a unit quantity of input or output of the studied system or a process within it",
+      "tags": [
+        "activity",
+        "data",
+        "input",
+        "output",
+        "system",
+        "process"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "062",
+      "term": "Control",
+      "definition": "Ability of value chain member to make decisions about activities that leverage carbon emissions and removals",
+      "tags": [
+        "control",
+        "decisions",
+        "activities",
+        "emissions",
+        "removals"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "063",
+      "term": "Constructor",
+      "definition": "Entity that undertakes work to construct build maintain repair replace disassemble or demolish an asset or network",
+      "tags": [
+        "constructor",
+        "entity",
+        "construct",
+        "maintain",
+        "repair"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "064",
+      "term": "Designer",
+      "definition": "Entity that creates prepares or specifies the design of an asset or network that is to be constructed maintained repaired or refurbished",
+      "tags": [
+        "designer",
+        "entity",
+        "design",
+        "asset",
+        "network"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "065",
+      "term": "Emissions Factor",
+      "definition": "Amount of greenhouse gases emitted expressed as carbon dioxide equivalent (CO2e) and relative to a unit of activity",
+      "tags": [
+        "emissions",
+        "factor",
+        "greenhouse",
+        "gases",
+        "CO2e",
+        "activity"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "066",
+      "term": "Emissions Reduction",
+      "definition": "Quantified decrease in greenhouse gas emissions specifically related to or arising from an activity between two points in time or relative to a baseline",
+      "tags": [
+        "emissions",
+        "reduction",
+        "decrease",
+        "greenhouse",
+        "gas",
+        "baseline"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "067",
+      "term": "Co-benefits",
+      "definition": "Added benefits of decarbonization above and beyond the direct benefits of reducing greenhouse gas emissions",
+      "tags": [
+        "co-benefits",
+        "decarbonization",
+        "additional",
+        "benefits"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "General",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "068",
+      "term": "Influence",
+      "definition": "ability of value chain member to support other value chain members to make low-carbon decisions",
+      "tags": [
+        "influence",
+        "value",
+        "chain",
+        "low-carbon",
+        "decisions",
+        "support"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "069",
+      "term": "Infrastructure",
+      "definition": "basic physical and organizational structures, facilities, equipment and services needed for the operation of a society or organization, or the services and facilities necessary for an economy to function",
+      "tags": [
+        "infrastructure",
+        "physical",
+        "structures",
+        "facilities",
+        "equipment",
+        "services"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "070",
+      "term": "Leadership",
+      "definition": "ability of an individual, group or organization to lead, influence or guide other individuals, teams or entire organizations",
+      "tags": [
+        "leadership",
+        "ability",
+        "guide",
+        "influence",
+        "organizations"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "071",
+      "term": "Life Cycle",
+      "definition": "consecutive and interlinked stages of a product, equipment or service, from raw material acquisition or generation from natural resources to design, production, transportation/delivery, use, end-of-life treatment and final disposal",
+      "tags": [
+        "life",
+        "cycle",
+        "stages",
+        "product",
+        "service",
+        "disposal"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "072",
+      "term": "Nature-based Solutions",
+      "definition": "actions to protect, sustainably manage and restore natural or modified ecosystems that address societal challenges effectively and adaptively, simultaneously providing human well-being and biodiversity benefits",
+      "tags": [
+        "nature-based",
+        "solutions",
+        "ecosystems",
+        "societal",
+        "challenges",
+        "biodiversity"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Environmental & Nature",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "073",
+      "term": "Network",
+      "definition": "combination of interconnected assets (buildings and infrastructure) that provide services to society as part of a wider system",
+      "tags": [
+        "network",
+        "interconnected",
+        "assets",
+        "services",
+        "system"
+      ],
+      "reference": "PAS 2080:2023",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "074",
+      "term": "Anaerobic Digestion",
+      "definition": "Microbial breakdown of organic matter in the absence of oxygen",
+      "tags": [
+        "anaerobic",
+        "digestion",
+        "microbial",
+        "breakdown",
+        "organic"
+      ],
+      "reference": "Circular economy glossary",
+      "category": "Environmental & Nature",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "075",
+      "term": "Biological Cycle",
+      "definition": "The processes such as composting and anaerobic digestion that together help to regenerate natural capital",
+      "tags": [
+        "biological",
+        "cycle",
+        "processes",
+        "composting",
+        "natural",
+        "capital"
+      ],
+      "reference": "Circular economy glossary",
+      "category": "Environmental & Nature",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "076",
+      "term": "Durability",
+      "definition": "The ability of a product component or material to remain functional and relevant when used as intended",
+      "tags": [
+        "durability",
+        "functional",
+        "relevant",
+        "product",
+        "material"
+      ],
+      "reference": "Circular economy glossary",
+      "category": "General",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "077",
+      "term": "Finite Materials",
+      "definition": "Materials that are non-renewable on timescales relevant to the economy such as metals, minerals, fossil fuels",
+      "tags": [
+        "finite",
+        "materials",
+        "non-renewable",
+        "metals",
+        "minerals"
+      ],
+      "reference": "Circular economy glossary",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "078",
+      "term": "Lifespan/Lifetime",
+      "definition": "The period of time from when a product is released for use after manufacture to the moment it becomes obsolete beyond recovery",
+      "tags": [
+        "lifespan",
+        "lifetime",
+        "product",
+        "manufacture",
+        "obsolete"
+      ],
+      "reference": "Circular economy glossary",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "079",
+      "term": "Linear Economy",
+      "definition": "An economy in which finite resources are extracted to make products that are used and then thrown away (take-make-waste)",
+      "tags": [
+        "linear",
+        "economy",
+        "finite",
+        "resources",
+        "take-make-waste"
+      ],
+      "reference": "Circular economy glossary",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "080",
+      "term": "Maintain",
+      "definition": "Keep a product in its existing state of quality, functionally and/or cosmetically to guard against failure or decline",
+      "tags": [
+        "maintain",
+        "product",
+        "quality",
+        "functional",
+        "cosmetic"
+      ],
+      "reference": "Circular economy glossary",
+      "category": "General",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "081",
+      "term": "Non-Virgin Materials",
+      "definition": "Materials that have been previously used",
+      "tags": [
+        "non-virgin",
+        "materials",
+        "previously",
+        "used"
+      ],
+      "reference": "Circular economy glossary",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "082",
+      "term": "Substructure",
+      "definition": "Excavations, foundations, basements and ground floors",
+      "tags": [
+        "substructure",
+        "excavations",
+        "foundations",
+        "basements"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "083",
+      "term": "Superstructure",
+      "definition": "Load-bearing elements above plinth including roof supporting structure",
+      "tags": [
+        "superstructure",
+        "load-bearing",
+        "elements",
+        "roof",
+        "structure"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "084",
+      "term": "Services",
+      "definition": "Installations to ensure comfort, practicality, accessibility and safety",
+      "tags": [
+        "services",
+        "installations",
+        "comfort",
+        "accessibility",
+        "safety"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "085",
+      "term": "Shell/Skin",
+      "definition": "The layer keeping out water, wind, heat, cold, direct sunlight and noise",
+      "tags": [
+        "shell",
+        "skin",
+        "layer",
+        "water",
+        "wind",
+        "heat"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "086",
+      "term": "Space",
+      "definition": "The layout, internal walls, ceilings, floors, finishes, doors, fitted furniture",
+      "tags": [
+        "space",
+        "layout",
+        "internal",
+        "walls",
+        "ceilings"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "087",
+      "term": "Site",
+      "definition": "The geographical setting, urban location and external works",
+      "tags": [
+        "site",
+        "geographical",
+        "setting",
+        "urban",
+        "location"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "088",
+      "term": "Recover",
+      "definition": "Forms of recovery other than energy recovery including preparing for re-use, recycling and backfilling",
+      "tags": [
+        "recover",
+        "recovery",
+        "re-use",
+        "recycling",
+        "backfilling"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "089",
+      "term": "Reduce",
+      "definition": "Design, manufacture and use of products that use materials and resources efficiently throughout the entire life cycle",
+      "tags": [
+        "reduce",
+        "design",
+        "manufacture",
+        "efficient",
+        "resources"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "090",
+      "term": "Refurbish",
+      "definition": "Redeveloped for similar needs and uses but meeting or exceeding current regulations and standards through restoring, refinishing and future proofing while minimising changes and avoiding replacement of any parts. Parts of historical significance are incorporated in the design and carefully preserved. Designed for longevity, adaptability or flexibility to prolong the new life of the development",
+      "tags": [
+        "refurbish",
+        "redeveloped",
+        "similar",
+        "needs",
+        "regulations",
+        "preserving"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "091",
+      "term": "Repurpose",
+      "definition": "Redeveloped to accommodate different needs and/or uses (e.g. from industrial use to mixed use) but exceeding current regulations and standards through significant changes and replacement of shorter-life parts. Parts of historical significance are incorporated in the design and carefully preserved. Designed for longevity, adaptability or flexibility to prolong the new life of the development",
+      "tags": [
+        "repurpose",
+        "redeveloped",
+        "different",
+        "needs",
+        "changes",
+        "preserving"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "092",
+      "term": "Reusability (Design for)",
+      "definition": "Designed to be redeployed as modules or reused as a kit of parts on one or more different sites while minimising any servicing and maximising the size of the future market by using high-demand, standard dimensions and specifications",
+      "tags": [
+        "reusability",
+        "design",
+        "modules",
+        "kit",
+        "parts",
+        "servicing"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "093",
+      "term": "Recoverability (Design for)",
+      "definition": "Designed to be deconstructed and reused or recycled on a part by part basis due to neither modules nor a kit of parts being desirable, feasible or viable and/or a limited future market as a result of unusual parts, dimensions or specifications",
+      "tags": [
+        "recoverability",
+        "design",
+        "deconstructed",
+        "recycled",
+        "parts"
+      ],
+      "reference": "Design for a Circular Economy",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "094",
+      "term": "BREEAM",
+      "definition": "Building Research Establishment Environmental Assessment Method - world's leading sustainability assessment method for buildings established in 1990",
+      "tags": [
+        "BREEAM",
+        "building",
+        "research",
+        "establishment",
+        "environmental",
+        "assessment"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "095",
+      "term": "LEED",
+      "definition": "Leadership in Energy and Environmental Design - international green building certification program developed by US Green Building Council",
+      "tags": [
+        "LEED",
+        "leadership",
+        "energy",
+        "environmental",
+        "design",
+        "certification"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "096",
+      "term": "RICS",
+      "definition": "Royal Institution of Chartered Surveyors - professional body promoting and enforcing highest international standards in valuation land economy and built environment",
+      "tags": [
+        "RICS",
+        "royal",
+        "institution",
+        "chartered",
+        "surveyors",
+        "professional"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "097",
+      "term": "GIA",
+      "definition": "Gross Internal Area - a measure of building floor area",
+      "tags": [
+        "GIA",
+        "gross",
+        "internal",
+        "area",
+        "building"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "098",
+      "term": "RIBA",
+      "definition": "Royal Institute of British Architects - professional body and work stage framework",
+      "tags": [
+        "RIBA",
+        "architects",
+        "professional",
+        "work",
+        "stages"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "099",
+      "term": "CLT",
+      "definition": "Cross Laminated Timber - engineered wood product made from layers of lumber boards stacked crosswise and glued together",
+      "tags": [
+        "CLT",
+        "cross-laminated",
+        "timber",
+        "engineered",
+        "wood",
+        "layers"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "100",
+      "term": "FSC",
+      "definition": "Forest Stewardship Council - certification for responsible forest management",
+      "tags": [
+        "FSC",
+        "forest",
+        "stewardship",
+        "council",
+        "certification"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Environmental & Nature",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "101",
+      "term": "GGBS",
+      "definition": "Ground Granulated Blast-furnace Slag - by-product of iron production used as supplementary cementitious material to replace cement",
+      "tags": [
+        "GGBS",
+        "ground",
+        "granulated",
+        "blast-furnace",
+        "slag",
+        "iron"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "102",
+      "term": "PFA",
+      "definition": "Pulverised Fuel Ash - by-product of coal combustion used as supplementary cementitious material in concrete",
+      "tags": [
+        "PFA",
+        "pulverised",
+        "fuel",
+        "ash",
+        "cement",
+        "coal"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "103",
+      "term": "GWP",
+      "definition": "Global Warming Potential - measure of how much heat greenhouse gas traps in atmosphere compared to carbon dioxide",
+      "tags": [
+        "GWP",
+        "global",
+        "warming",
+        "potential",
+        "heat",
+        "greenhouse",
+        "gas"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "104",
+      "term": "DfMA",
+      "definition": "Design for Manufacture and Assembly - approach to simplify construction",
+      "tags": [
+        "DfMA",
+        "design",
+        "manufacture",
+        "assembly",
+        "construction"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "105",
+      "term": "DSM",
+      "definition": "Dynamic Simulation Modelling - computational modelling technique",
+      "tags": [
+        "DSM",
+        "dynamic",
+        "simulation",
+        "modelling",
+        "computational"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "106",
+      "term": "EUI",
+      "definition": "Energy Use Intensity - measure of energy efficiency in buildings",
+      "tags": [
+        "EUI",
+        "energy",
+        "use",
+        "intensity",
+        "efficiency",
+        "buildings"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "107",
+      "term": "NBS",
+      "definition": "National Building Specification - UK building specification system",
+      "tags": [
+        "NBS",
+        "national",
+        "building",
+        "specification",
+        "UK"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "108",
+      "term": "NRM",
+      "definition": "New Rules of Measurements - UK quantity surveying measurement standard",
+      "tags": [
+        "NRM",
+        "new",
+        "rules",
+        "measurements",
+        "quantity",
+        "surveying"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "109",
+      "term": "UKGBC",
+      "definition": "United Kingdom Green Building Council - industry body promoting sustainable building practices in UK",
+      "tags": [
+        "UKGBC",
+        "green",
+        "building",
+        "council",
+        "sustainable",
+        "practices"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Corporate Sustainability",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "110",
+      "term": "WGBC",
+      "definition": "World Green Building Council - global network for sustainable building",
+      "tags": [
+        "WGBC",
+        "world",
+        "green",
+        "building",
+        "council",
+        "global"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Corporate Sustainability",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "111",
+      "term": "CIBSE",
+      "definition": "Chartered Institution of Building Services Engineers - professional engineering institution representing building services engineers",
+      "tags": [
+        "CIBSE",
+        "chartered",
+        "institution",
+        "building",
+        "services",
+        "engineers"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Business & Management",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "112",
+      "term": "GRC",
+      "definition": "Glass Reinforced Concrete - composite building material",
+      "tags": [
+        "GRC",
+        "glass",
+        "reinforced",
+        "concrete",
+        "composite"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Materials & Waste",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "113",
+      "term": "IEA",
+      "definition": "International Energy Agency - intergovernmental energy organization",
+      "tags": [
+        "IEA",
+        "international",
+        "energy",
+        "agency",
+        "government"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Corporate Sustainability",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "114",
+      "term": "LETI",
+      "definition": "London Energy Transformation Initiative - industry collaboration working to make London's built environment compatible with 1.5°C trajectory",
+      "tags": [
+        "LETI",
+        "london",
+        "energy",
+        "transformation",
+        "net",
+        "zero"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Corporate Sustainability",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "115",
+      "term": "Biogenic Carbon",
+      "definition": "Carbon stored in biomaterials such as timber from atmospheric CO2",
+      "tags": [
+        "biogenic",
+        "carbon",
+        "biomaterials",
+        "timber",
+        "atmospheric"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "116",
+      "term": "EN 15978",
+      "definition": "Sustainability of construction works – Assessment of environmental performance of buildings – Calculation method. European standard currently under revision expected to be republished in 2024. Provides modular structure (A1-D2) and calculation methodology foundation for RICS WLCA and global industry practice",
+      "tags": [
+        "EN",
+        "15978",
+        "european",
+        "standard",
+        "building",
+        "assessment",
+        "modular",
+        "structure"
+      ],
+      "reference": "RICS WLCA Professional Statement",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "117",
+      "term": "EN 17472",
+      "definition": "Sustainability of construction works – Sustainability assessment of civil engineering works – Calculation methods. European standard (2022) providing calculation methodology for infrastructure lifecycle assessment, complementing EN 15978 for civil engineering applications",
+      "tags": [
+        "EN",
+        "17472",
+        "european",
+        "standard",
+        "civil",
+        "engineering",
+        "infrastructure"
+      ],
+      "reference": "RICS WLCA Professional Statement",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "118",
+      "term": "EN 15804",
+      "definition": "Sustainability of construction works – Environmental product declarations – Core rules for the product category of construction products. European standard defining core rules for EPDs, essential for accurate embodied carbon assessments and material specification decisions",
+      "tags": [
+        "EN",
+        "15804",
+        "european",
+        "standard",
+        "product",
+        "declarations",
+        "EPDs"
+      ],
+      "reference": "PAS 2080:2023 Bibliography",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "119",
+      "term": "ISO 14040",
+      "definition": "Environmental management – Life cycle assessment – Principles and framework. International standard (2006) establishing fundamental LCA principles and framework methodology underlying building and infrastructure carbon assessment practices",
+      "tags": [
+        "ISO",
+        "14040",
+        "international",
+        "standard",
+        "lifecycle",
+        "assessment",
+        "principles",
+        "framework"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "120",
+      "term": "ISO 14044",
+      "definition": "Environmental management – Life cycle assessment – Requirements and guidelines. International standard (2006) providing detailed requirements and guidelines for conducting lifecycle assessments, complementing ISO 14040 principles",
+      "tags": [
+        "ISO",
+        "14044",
+        "international",
+        "standard",
+        "lifecycle",
+        "requirements",
+        "guidelines"
+      ],
+      "reference": "PAS 2080:2023 Bibliography",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "121",
+      "term": "Cradle to Gate",
+      "definition": "Assessment approach covering production phase from raw materials to factory gate (Modules A1-A3)",
+      "tags": [
+        "cradle",
+        "gate",
+        "assessment",
+        "production",
+        "materials"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "122",
+      "term": "Cradle to Practical Completion",
+      "definition": "Assessment approach covering stages A1-A3 and A4-A5 up to project completion",
+      "tags": [
+        "cradle",
+        "practical",
+        "completion",
+        "assessment",
+        "stages"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "123",
+      "term": "Cradle to Grave",
+      "definition": "Assessment approach covering entire lifecycle from raw materials to disposal (Modules A-C)",
+      "tags": [
+        "cradle",
+        "grave",
+        "assessment",
+        "lifecycle",
+        "disposal"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "124",
+      "term": "Cradle to Cradle",
+      "definition": "Assessment approach covering stages A-B-C and Module D including benefits beyond system boundary",
+      "tags": [
+        "cradle",
+        "cradle",
+        "assessment",
+        "benefits",
+        "system"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "125",
+      "term": "Reference Study Period (RSP)",
+      "definition": "Period of time considered for the LCA study affecting results related to in-use stage replacements",
+      "tags": [
+        "reference",
+        "study",
+        "period",
+        "LCA",
+        "time"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "126",
+      "term": "System Boundary",
+      "definition": "Definition of which life cycle stages are considered in the LCA study",
+      "tags": [
+        "system",
+        "boundary",
+        "lifecycle",
+        "stages",
+        "LCA"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "127",
+      "term": "Product Stage",
+      "definition": "Life cycle stage covering modules A1-A3 including raw material extraction transport and manufacturing",
+      "tags": [
+        "product",
+        "stage",
+        "A1-A3",
+        "materials",
+        "manufacturing"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "128",
+      "term": "Construction Stage",
+      "definition": "Life cycle stage covering modules A4-A5 including transport to site and construction processes",
+      "tags": [
+        "construction",
+        "stage",
+        "A4-A5",
+        "transport",
+        "site"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "129",
+      "term": "Use Stage",
+      "definition": "Life cycle stage covering modules B1-B8 including all emissions during asset operation",
+      "tags": [
+        "use",
+        "stage",
+        "B1-B8",
+        "operation",
+        "emissions"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "130",
+      "term": "End-of-Life Stage",
+      "definition": "Life cycle stage covering modules C1-C4 including deconstruction waste processing and disposal",
+      "tags": [
+        "end-of-life",
+        "stage",
+        "C1-C4",
+        "deconstruction",
+        "disposal"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "131",
+      "term": "Benefits and Loads Beyond System Boundary",
+      "definition": "Module D covering potential benefits and loads from reuse recycling and exported utilities",
+      "tags": [
+        "benefits",
+        "loads",
+        "module",
+        "D",
+        "reuse",
+        "recycling"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "132",
+      "term": "Whole Life Carbon Assessment (WLCA)",
+      "definition": "Calculation and reporting of carbon impacts throughout all life cycle stages of a project including assessment of benefits beyond system boundary",
+      "tags": [
+        "WLCA",
+        "calculation",
+        "reporting",
+        "lifecycle",
+        "impacts"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "133",
+      "term": "ICMS 3",
+      "definition": "International Construction Measurement Standards providing cost classification system",
+      "tags": [
+        "ICMS",
+        "3",
+        "international",
+        "construction",
+        "measurement",
+        "standards"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "134",
+      "term": "Global Warming Potential (GWP)",
+      "definition": "Common unit of measurement for GHG emissions allowing representation of all GHGs associated with material or process through standard unit",
+      "tags": [
+        "GWP",
+        "global",
+        "warming",
+        "potential",
+        "measurement"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "135",
+      "term": "Carbon Dioxide Equivalent (CO2e)",
+      "definition": "Standard unit expressing GWP of greenhouse gases in terms of carbon dioxide",
+      "tags": [
+        "CO2e",
+        "carbon",
+        "dioxide",
+        "equivalent",
+        "unit"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "136",
+      "term": "Material Resource Banks",
+      "definition": "Concept of buildings as stores of materials that can be recovered at end of life",
+      "tags": [
+        "material",
+        "resource",
+        "banks",
+        "buildings",
+        "stores",
+        "recovery"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "137",
+      "term": "Carbon Budget",
+      "definition": "A finite amount of carbon dioxide that can be emitted for a given level of global warming",
+      "tags": [
+        "carbon",
+        "budget",
+        "finite",
+        "emissions",
+        "global",
+        "warming"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "138",
+      "term": "Embodied Energy",
+      "definition": "The total energy required for the extraction processing manufacture transportation and assembly of building materials",
+      "tags": [
+        "embodied",
+        "energy",
+        "extraction",
+        "processing",
+        "manufacture",
+        "transportation"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "139",
+      "term": "Operational Energy",
+      "definition": "Energy consumed during the operational phase of a building for heating cooling lighting ventilation and equipment",
+      "tags": [
+        "operational",
+        "energy",
+        "heating",
+        "cooling",
+        "lighting",
+        "ventilation"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "140",
+      "term": "Carbon Intensity",
+      "definition": "The amount of carbon dioxide released per unit of energy consumed",
+      "tags": [
+        "carbon",
+        "intensity",
+        "carbon",
+        "dioxide",
+        "energy",
+        "unit"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Carbon & Climate",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "141",
+      "term": "CIBSE TM65",
+      "definition": "Embodied carbon of building services: a calculation methodology. CIBSE technical memorandum (2021) including 2022 addendum, free for CIBSE members. Provides specific methodology for calculating embodied carbon in MEP systems",
+      "tags": [
+        "TM65",
+        "CIBSE",
+        "building",
+        "services",
+        "calculation",
+        "methodology",
+        "MEP"
+      ],
+      "reference": "RICS WLCA Professional Statement",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "142",
+      "term": "Greenhouse Gas Protocol",
+      "definition": "International standard for corporate GHG emissions accounting and reporting",
+      "tags": [
+        "greenhouse",
+        "gas",
+        "protocol",
+        "corporate",
+        "accounting"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "143",
+      "term": "SKA",
+      "definition": "Sustainable Knowledge Asset rating system for fit-out projects",
+      "tags": [
+        "SKA",
+        "sustainable",
+        "knowledge",
+        "asset",
+        "rating"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "144",
+      "term": "Part L",
+      "definition": "UK Building Regulations covering conservation of fuel and power",
+      "tags": [
+        "Part",
+        "L",
+        "building",
+        "regulations",
+        "fuel",
+        "power"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Built Environment",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "145",
+      "term": "Net Flow Methodology",
+      "definition": "Methodology in Module D that seeks to avoid double counting benefits of reused and recycled materials",
+      "tags": [
+        "net",
+        "flow",
+        "methodology",
+        "module",
+        "D",
+        "double",
+        "counting"
+      ],
+      "reference": "Whole life carbon assessment PS",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "146",
+      "term": "GaBi Database",
+      "definition": "Life cycle inventory database containing environmental data for materials and processes",
+      "tags": [
+        "GaBi",
+        "database",
+        "lifecycle",
+        "inventory",
+        "environmental"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "147",
+      "term": "ICE Database",
+      "definition": "Inventory of Carbon and Energy database from University of Bath",
+      "tags": [
+        "ICE",
+        "database",
+        "carbon",
+        "energy",
+        "inventory"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "148",
+      "term": "TRACI",
+      "definition": "Tool for the Reduction and Assessment of Chemical Impacts - LCIA methodology",
+      "tags": [
+        "TRACI",
+        "reduction",
+        "assessment",
+        "chemical",
+        "impacts"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "149",
+      "term": "CML",
+      "definition": "Centrum voor Milieukunde Leiden - LCIA methodology used in environmental assessment",
+      "tags": [
+        "CML",
+        "centrum",
+        "milieukunde",
+        "leiden",
+        "methodology"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "150",
+      "term": "OneClick LCA",
+      "definition": "Finnish tool using generic data and EPDs with TRACI or CML methodology for building LCA",
+      "tags": [
+        "OneClick",
+        "LCA",
+        "finnish",
+        "tool",
+        "EPDs"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
     {
       "id": "151",
       "term": "eTool LCA",
@@ -857,14 +3166,14 @@
     {
       "id": "203",
       "term": "Value Chain",
-      "definition": "Full range of activities required to bring product or service from conception to market",
+      "definition": "organizations and stakeholders involved in creating, operating and managing assets and/or networks",
       "tags": [
         "value",
         "chain",
-        "activities",
-        "product",
-        "service",
-        "market"
+        "organizations",
+        "stakeholders",
+        "creating",
+        "operating"
       ],
       "reference": "PAS 2080:2023",
       "category": "Business & Management",
@@ -2339,16 +4648,16 @@
     {
       "id": "296",
       "term": "Flexibility",
-      "definition": "Building designed to allow easy rearrangement of internal fit-out and arrangement to suit changing needs of occupants",
+      "definition": "Designed to balance the needs of the present with how those needs will change in the future and designed for change through frequent reconfiguring including reconfiguration of non-structural parts – configurations are likely to be pre-agreed with planning and building control and not involve 'wet trades' or any waste",
       "tags": [
         "flexibility",
         "building",
-        "rearrangement",
-        "internal",
-        "fit-out",
-        "occupants"
+        "reconfiguring",
+        "non-structural",
+        "wet",
+        "trades"
       ],
-      "reference": "",
+      "reference": "Design for a Circular Economy",
       "category": "Built Environment",
       "dateAdded": "2025-06-28"
     },
@@ -2613,16 +4922,16 @@
     {
       "id": "313",
       "term": "Longevity",
-      "definition": "Design approach focused on creating buildings and infrastructure with extended useful life",
+      "definition": "Tailored to well-defined, long term needs while being durable and resilient or able to cope with change with little modification/no replacement of parts due to its 'loose fit', generous proportions and readiness for alternative technologies, different ways of living or working and a changing climate",
       "tags": [
         "longevity",
-        "design",
-        "approach",
-        "extended",
-        "useful",
-        "life"
+        "tailored",
+        "durable",
+        "resilient",
+        "loose",
+        "fit"
       ],
-      "reference": "",
+      "reference": "Design for a Circular Economy",
       "category": "Built Environment",
       "dateAdded": "2025-06-28"
     },
@@ -3314,16 +5623,16 @@
     {
       "id": "356",
       "term": "Carbon Management",
-      "definition": "Systematic approach to measuring monitoring and reducing carbon emissions across organization or project",
+      "definition": "assessment, reduction and removal of greenhouse gas emissions during the planning, optioneering, design, delivery, operation, use, end of life (and beyond) of new, or the management of existing, assets, networks and/or systems",
       "tags": [
         "carbon",
         "management",
-        "systematic",
-        "approach",
-        "measuring",
-        "monitoring"
+        "assessment",
+        "reduction",
+        "removal",
+        "lifecycle"
       ],
-      "reference": "",
+      "reference": "PAS 2080:2023",
       "category": "Business & Management",
       "dateAdded": "2025-06-28"
     },
@@ -3363,7 +5672,7 @@
     {
       "id": "359",
       "term": "Scope 2 Emissions",
-      "definition": "Indirect greenhouse gas emissions from generation of purchased electricity steam heating cooling",
+      "definition": "Indirect greenhouse gas emissions from generation of purchased electricity, steam, heating, cooling",
       "tags": [
         "scope",
         "2",
@@ -3398,7 +5707,7 @@
     {
       "id": "361",
       "term": "Virgin Materials",
-      "definition": "Materials that have not yet been used in the economy including both finite materials and renewable resources",
+      "definition": "Materials that have not yet been used in the economy, including both finite materials and renewable resources",
       "tags": [
         "virgin",
         "materials",
@@ -3526,7 +5835,7 @@
     {
       "id": "369",
       "term": "PAS 2080",
-      "definition": "British Standard specification for carbon management in buildings and infrastructure providing framework for managing whole life carbon emissions",
+      "definition": "Carbon management in buildings and infrastructure. BSI publicly available specification (2023) with associated guidance document. Establishes systematic carbon management process, carbon reduction hierarchy (Avoid-Improve-Switch), and collaborative value chain approach for net zero transition by 2050",
       "tags": [
         "PAS",
         "2080",
@@ -3534,7 +5843,8 @@
         "management",
         "buildings",
         "infrastructure",
-        "systematic"
+        "systematic",
+        "hierarchy"
       ],
       "reference": "PAS 2080:2023",
       "category": "Assessment & Lifecycle",
@@ -3592,16 +5902,16 @@
     {
       "id": "373",
       "term": "Adaptability",
-      "definition": "Building designed with thought of how it might be easily altered to prolong its life for new uses or patterns of use",
+      "definition": "Designed to meet the needs of the present, but with consideration of how those needs might change in the future and designed for change in the form of periodic remodelling including alterations or replacement of non-structural parts – modifications are likely to involve planning, building control and 'wet trades'",
       "tags": [
         "adaptability",
-        "building",
-        "easily",
-        "altered",
-        "prolong",
-        "life"
+        "periodic",
+        "remodelling",
+        "non-structural",
+        "wet",
+        "trades"
       ],
-      "reference": "Climate jargon buster",
+      "reference": "Design for a Circular Economy",
       "category": "Built Environment",
       "dateAdded": "2025-06-28"
     },
@@ -4166,7 +6476,7 @@
     {
       "id": "407",
       "term": "Retrofit First",
-      "definition": "A policy approach that prioritizes the retention and refurbishment of existing buildings over demolition and redevelopment to reduce embodied carbon emissions. The approach requires demonstration that retrofit options have been fully explored before demolition is considered typically through an options appraisal exercise comparing retrofit deep retrofit and new build scenarios based on carbon impact public benefits operational requirements and structural feasibility",
+      "definition": "A policy approach that prioritizes the retention and refurbishment of existing buildings over demolition and redevelopment to reduce embodied carbon emissions. The approach requires demonstration that retrofit options have been fully explored before demolition is considered, typically through an options appraisal exercise comparing retrofit, deep retrofit and new build scenarios based on carbon impact, public benefits, operational requirements and structural feasibility",
       "tags": [
         "retrofit",
         "embodied",
@@ -4186,7 +6496,7 @@
     {
       "id": "408",
       "term": "Functional Unit",
-      "definition": "Quantified performance of a product or system for use as a reference unit. The functional unit takes into account a function a quantity a duration and a quality of the asset network or system being assessed. In RICS WLCA functional units serve as primary and secondary normalisation units and are mandatory reporting requirements for assessments",
+      "definition": "Quantified performance of a product or system for use as a reference unit. The functional unit takes into account a function, a quantity, a duration and a quality of the asset, network or system being assessed. In RICS WLCA functional units serve as primary and secondary normalisation units and are mandatory reporting requirements for assessments",
       "tags": [
         "normalisation",
         "assessment",
@@ -4215,2254 +6525,122 @@
       ],
       "reference": "",
       "category": "Technology & Data",
-      "dateAdded": "2025-06-28ID"
-    },
-    {
-      "id": "001",
-      "term": "Embodied Carbon (EC)",
-      "definition": "The GHG emissions associated with materials and construction processes throughout the whole lifecycle of an asset (Modules A1–A5 B1–B5 and C1–C4)",
-      "tags": [
-        "carbon",
-        "emissions",
-        "materials",
-        "construction"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "002",
-      "term": "Operational Carbon (OC)",
-      "definition": "The GHG emissions arising from all energy and water consumed by an asset in use over its lifecycle (Modules B6 and B7)",
-      "tags": [
-        "carbon",
-        "emissions",
-        "energy",
-        "consumption",
-        "operation"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "003",
-      "term": "Whole-life Carbon (WLC)",
-      "definition": "The total of all GHG emissions and removals both operational and embodied over the lifecycle of an asset including its disposal (Modules A–C)",
-      "tags": [
-        "carbon",
-        "lifecycle",
-        "emissions",
-        "total"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "004",
-      "term": "Net Zero",
-      "definition": "A net-zero-carbon asset where the sum total of all asset-related GHG emissions both operational and embodied over its lifecycle including disposal plus offsets equals zero",
-      "tags": [
-        "carbon",
-        "neutral",
-        "offsetting",
-        "target"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "005",
-      "term": "Zero Carbon",
-      "definition": "An asset product or service that produces no carbon emissions and therefore no offsetting is required. Also known as carbon zero absolute zero or gross zero",
-      "tags": [
-        "emissions",
-        "free",
-        "carbon",
-        "neutral"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "006",
-      "term": "Climate Positive",
-      "definition": "An activity that goes beyond net zero by achieving an overall reduction in GHGs in the atmosphere. Also referred to as carbon negative",
-      "tags": [
-        "carbon",
-        "reduction",
-        "atmospheric",
-        "greenhouse",
-        "gas"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "007",
-      "term": "Upfront Carbon",
-      "definition": "GHG emissions up to practical completion excluding sequestration (Modules A1–A5)",
-      "tags": [
-        "construction",
-        "emissions",
-        "embodied",
-        "carbon"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "008",
-      "term": "Sequestration",
-      "definition": "The removal and long-term storage of CO2 from the atmosphere in biomaterials such as timber. The carbon stored in these materials is known as biogenic carbon",
-      "tags": [
-        "carbon",
-        "storage",
-        "biomaterials",
-        "timber"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "009",
-      "term": "Carbon Capture and Storage (CCS)",
-      "definition": "Process to capture the CO2 arising from fossil fuel combustion or industrial processes transporting it to a storage site and storing it where it will not enter the atmosphere",
-      "tags": [
-        "carbon",
-        "capture",
-        "fossil",
-        "fuels",
-        "storage"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "010",
-      "term": "Greenhouse Gas (GHG) Emissions",
-      "definition": "Emissions of gasses including carbon dioxide methane and water vapour that trap heat in the atmosphere. The global warming potential (GWP) of these gasses is measured in CO2e",
-      "tags": [
-        "greenhouse",
-        "gas",
-        "carbon",
-        "dioxide",
-        "methane"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "011",
-      "term": "Science-based Target",
-      "definition": "A target that is consistent with the pace recommended by climate scientists to limit the worst impacts of climate change",
-      "tags": [
-        "climate",
-        "science",
-        "targets",
-        "objectives"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "012",
-      "term": "Scope 1 2 and 3 Emissions",
-      "definition": "Classification boundaries for an organisation's GHG emissions. Scope 1: direct emissions from owned sources. Scope 2: indirect emissions from purchased energy. Scope 3: all other indirect emissions in value chain",
-      "tags": [
-        "emissions",
-        "scope",
-        "direct",
-        "indirect"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "013",
-      "term": "Carbon Offsetting",
-      "definition": "The use of GHG emission reductions or removals to compensate for CO2 emissions",
-      "tags": [
-        "emissions",
-        "compensation",
-        "reduction"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "014",
-      "term": "Lifecycle Assessment (LCA)",
-      "definition": "A method to quantify the carbon emissions and other environmental impacts such as acidification and air pollution of assets or products over their whole lifecycle",
-      "tags": [
-        "assessment",
-        "environmental",
-        "impact",
-        "lifecycle"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "015",
-      "term": "Environmental Product Declaration (EPD)",
-      "definition": "A third-party verified standardised document that provides the environmental impact of a product based on the data from an LCA",
-      "tags": [
-        "product",
-        "declaration",
-        "environmental",
-        "verification"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "016",
-      "term": "Lifecycle Stages/Modules",
-      "definition": "Each lifecycle module (A1 A2...) describes a distinct phase in the lifecycle of an asset and modules are grouped into stages",
-      "tags": [
-        "lifecycle",
-        "phases",
-        "modules",
-        "stages"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "017",
-      "term": "Module A0",
-      "definition": "Pre-construction stage covering project planning design and pre-construction activities",
-      "tags": [
-        "lifecycle",
-        "module",
-        "pre-construction",
-        "planning",
-        "design"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "018",
-      "term": "Module A1",
-      "definition": "Raw material extraction and supply covering extraction and processing of materials",
-      "tags": [
-        "lifecycle",
-        "module",
-        "raw",
-        "materials",
-        "extraction",
-        "supply"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "019",
-      "term": "Module A2",
-      "definition": "Transport to manufacturing plant covering transportation of raw materials to manufacturing facilities",
-      "tags": [
-        "lifecycle",
-        "module",
-        "transport",
-        "manufacturing",
-        "materials"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "020",
-      "term": "Module A3",
-      "definition": "Manufacturing and fabrication covering production processes to create construction products",
-      "tags": [
-        "lifecycle",
-        "module",
-        "manufacturing",
-        "fabrication",
-        "production"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "021",
-      "term": "Module A4",
-      "definition": "Transport to project site covering transportation of construction products to building site",
-      "tags": [
-        "lifecycle",
-        "module",
-        "transport",
-        "site",
-        "construction",
-        "products"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "022",
-      "term": "Module A5",
-      "definition": "Construction and installation process covering all on-site construction activities including waste",
-      "tags": [
-        "lifecycle",
-        "module",
-        "construction",
-        "installation",
-        "process",
-        "waste"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "023",
-      "term": "Module B1",
-      "definition": "Use stage direct emissions and removals from construction products such as refrigerant leakage or concrete carbonation",
-      "tags": [
-        "lifecycle",
-        "module",
-        "use",
-        "direct",
-        "emissions",
-        "products"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "024",
-      "term": "Module B2",
-      "definition": "Maintenance covering material-related emissions from maintenance activities over reference study period",
-      "tags": [
-        "lifecycle",
-        "module",
-        "maintenance",
-        "materials",
-        "emissions"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "025",
-      "term": "Module B3",
-      "definition": "Repair covering material-related emissions from repair activities of construction products over reference study period",
-      "tags": [
-        "lifecycle",
-        "module",
-        "repair",
-        "materials",
-        "emissions"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "026",
-      "term": "Module B4",
-      "definition": "Replacement covering material-related emissions from replacement of construction products over reference study period",
-      "tags": [
-        "lifecycle",
-        "module",
-        "replacement",
-        "materials",
-        "emissions"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "027",
-      "term": "Module B5",
-      "definition": "Refurbishment covering planned refurbishment or change in performance of asset planned at project outset",
-      "tags": [
-        "lifecycle",
-        "module",
-        "refurbishment",
-        "planned",
-        "performance"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "028",
-      "term": "Module B6",
-      "definition": "Operational energy covering energy use of asset over in-use stage",
-      "tags": [
-        "lifecycle",
-        "module",
-        "operational",
-        "energy",
-        "use"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "029",
-      "term": "Module B7",
-      "definition": "Operational water covering water use over in-use stage",
-      "tags": [
-        "lifecycle",
-        "module",
-        "operational",
-        "water",
-        "use"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "030",
-      "term": "Module B8",
-      "definition": "Other operational covering user activities not included elsewhere such as vehicle use or commuting impacts",
-      "tags": [
-        "lifecycle",
-        "module",
-        "other",
-        "operational",
-        "user",
-        "activities"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "031",
-      "term": "Module C1",
-      "definition": "Deconstruction and demolition covering impacts during end-of-life demolition or deconstruction activities",
-      "tags": [
-        "lifecycle",
-        "module",
-        "deconstruction",
-        "demolition",
-        "end-of-life"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "032",
-      "term": "Module C2",
-      "definition": "Transport to disposal facility covering transportation of waste materials to disposal or processing facilities",
-      "tags": [
-        "lifecycle",
-        "module",
-        "transport",
-        "disposal",
-        "waste",
-        "materials"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "033",
-      "term": "Module C3",
-      "definition": "Waste processing for reuse recovery or recycling covering processing of waste materials for recovery",
-      "tags": [
-        "lifecycle",
-        "module",
-        "waste",
-        "processing",
-        "recovery",
-        "recycling"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "034",
-      "term": "Module C4",
-      "definition": "Disposal covering final disposal of waste materials including landfill or incineration",
-      "tags": [
-        "lifecycle",
-        "module",
-        "disposal",
-        "waste",
-        "landfill",
-        "incineration"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "035",
-      "term": "Module D1",
-      "definition": "Benefits and loads beyond system boundary from reuse recycling and energy recovery of materials",
-      "tags": [
-        "lifecycle",
-        "module",
-        "benefits",
-        "loads",
-        "reuse",
-        "recycling"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "036",
-      "term": "Module D2",
-      "definition": "Benefits and loads beyond system boundary from exported utilities such as generated electricity or treated water",
-      "tags": [
-        "lifecycle",
-        "module",
-        "benefits",
-        "utilities",
-        "electricity",
-        "water"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "037",
-      "term": "Circular Economy",
-      "definition": "A circular economy is based on the principles of designing out waste and pollution and keeping products and materials in use through refurbishment reuse design for adaptability/deconstruction",
-      "tags": [
-        "circular",
-        "waste",
-        "pollution",
-        "design"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "038",
-      "term": "Design for Adaptability",
-      "definition": "Designing to support the continued use of an asset by allowing for and accommodating potential future adaptations",
-      "tags": [
-        "design",
-        "adaptability",
-        "future",
-        "use"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "039",
-      "term": "Design for Deconstruction (DfD)",
-      "definition": "Design decisions that increase the quality and quantity of materials that can be reused at the end of a building's life. Also known as design for disassembly",
-      "tags": [
-        "design",
-        "deconstruction",
-        "disassembly",
-        "reuse"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "040",
-      "term": "Regenerative Design",
-      "definition": "Design that achieves net positive impacts on health society and the environment often being inspired by the circular low-energy systems that exist in nature",
-      "tags": [
-        "regenerative",
-        "positive",
-        "impact",
-        "natural",
-        "systems"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Environmental & Nature",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "041",
-      "term": "Recyclability",
-      "definition": "Indicates how easy a product is to separate into its material components and to convert into a new item",
-      "tags": [
-        "recycling",
-        "separation",
-        "components",
-        "conversion"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "042",
-      "term": "Reuse",
-      "definition": "To use a product again while largely maintaining its original form. Unlike recycling reuse requires minimal reprocessing",
-      "tags": [
-        "reuse",
-        "original",
-        "form",
-        "minimal",
-        "processing"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "043",
-      "term": "Recycled Content (RC)",
-      "definition": "A measure of how much material within a product is from a non-virgin source",
-      "tags": [
-        "recycled",
-        "content",
-        "non-virgin",
-        "materials"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "044",
-      "term": "Recycling Rate (RR)",
-      "definition": "Indicates how much of a product is collected and returned to the manufacturing process",
-      "tags": [
-        "recycling",
-        "collection",
-        "manufacturing",
-        "process"
-      ],
-      "reference": "Climate jargon buster",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "045",
-      "term": "Downcycling",
-      "definition": "The transformation of products and materials into lower quality and/or lower value products and materials",
-      "tags": [
-        "downcycling",
-        "lower",
-        "quality",
-        "value",
-        "transformation"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "046",
-      "term": "Upcycling",
-      "definition": "To transform products and materials into higher quality and/or higher value products and materials",
-      "tags": [
-        "upcycling",
-        "higher",
-        "quality",
-        "value",
-        "transformation"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "047",
-      "term": "Backfilling",
-      "definition": "Any recovery operation of suitable non-hazardous waste for the purposes of reclamation in excavated areas or for engineering purposes in landscaping",
-      "tags": [
-        "backfilling",
-        "recovery",
-        "excavation",
-        "engineering"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "048",
-      "term": "Composting",
-      "definition": "The aerobic decomposition of bio-waste in a way that fulfils a high level of environment protection and results in output which meets relevant high-quality standards",
-      "tags": [
-        "composting",
-        "aerobic",
-        "decomposition",
-        "bio-waste"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "049",
-      "term": "Recycle",
-      "definition": "The conversion of waste into new materials and products by remanufacturing in ways that reduce demands for extracting raw materials from the natural environment",
-      "tags": [
-        "recycling",
-        "waste",
-        "conversion",
-        "materials",
-        "products"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "050",
-      "term": "Remanufacturing",
-      "definition": "To make a new or different product and is more closely associated with recycling than reuse",
-      "tags": [
-        "remanufacturing",
-        "new",
-        "product",
-        "recycling"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "051",
-      "term": "Reprocessing",
-      "definition": "A general term for treatment of materials to make them reusable",
-      "tags": [
-        "reprocessing",
-        "treatment",
-        "materials",
-        "reusable"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "052",
-      "term": "Building Information Modelling (BIM)",
-      "definition": "A digital tool to create and communicate three-dimensional building information and a complex repository of building information contributed by many professionals",
-      "tags": [
-        "BIM",
-        "digital",
-        "tool",
-        "building",
-        "information"
-      ],
-      "reference": "WBCSD Path to Alignment",
-      "category": "Technology & Data",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "053",
-      "term": "Bill of Materials (BOM)",
-      "definition": "A list of materials typically exported from BIM files to assess the embodied carbon impacts",
-      "tags": [
-        "BOM",
-        "materials",
-        "list",
-        "carbon",
-        "assessment"
-      ],
-      "reference": "WBCSD Path to Alignment",
-      "category": "Technology & Data",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "054",
-      "term": "Asset",
-      "definition": "Physical entity forming part of a network and/or system that has potential or actual value to an organization and its stakeholders",
-      "tags": [
-        "asset",
-        "physical",
-        "entity",
-        "network",
-        "value"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "055",
-      "term": "Asset Owner/Manager",
-      "definition": "Organization that manages and is responsible for providing operating and maintaining a buildings and infrastructure network or asset",
-      "tags": [
-        "asset",
-        "owner",
-        "manager",
-        "organization",
-        "infrastructure"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "056",
-      "term": "Baseline",
-      "definition": "Scenario for what carbon emissions and removals would have been in the absence of planned measures aiming to reduce emissions",
-      "tags": [
-        "baseline",
-        "emissions",
-        "scenario",
-        "measures"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "057",
-      "term": "Building",
-      "definition": "Structure usually enclosed by walls and a roof constructed to provide support or shelter for intended occupancy",
-      "tags": [
-        "building",
-        "structure",
-        "walls",
-        "roof",
-        "shelter"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "058",
-      "term": "Built Environment",
-      "definition": "Collection of human-made or induced physical objects located in a particular area or region",
-      "tags": [
-        "built",
-        "environment",
-        "human-made",
-        "physical",
-        "objects"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "059",
-      "term": "Decarbonization",
-      "definition": "Process by which organizations sectors or other entities aim to achieve zero fossil carbon emissions",
-      "tags": [
-        "decarbonization",
-        "zero",
-        "fossil",
-        "carbon",
-        "organizations"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "060",
-      "term": "Activity",
-      "definition": "Set of actions that consume time and resources and whose performance is necessary to achieve or contribute to the realization of one or more outcomes",
-      "tags": [
-        "activity",
-        "actions",
-        "resources",
-        "outcomes"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "061",
-      "term": "Activity Data",
-      "definition": "Data based on a unit quantity of input or output of the studied system or a process within it",
-      "tags": [
-        "activity",
-        "data",
-        "input",
-        "output",
-        "system"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "062",
-      "term": "Control",
-      "definition": "Ability of value chain member to make decisions about activities that leverage carbon emissions and removals",
-      "tags": [
-        "control",
-        "decisions",
-        "activities",
-        "emissions"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "063",
-      "term": "Constructor",
-      "definition": "Entity that undertakes work to construct build maintain repair replace disassemble or demolish an asset or network",
-      "tags": [
-        "constructor",
-        "entity",
-        "construct",
-        "maintain",
-        "repair"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "064",
-      "term": "Designer",
-      "definition": "Entity that creates prepares or specifies the design of an asset or network that is to be constructed maintained repaired or refurbished",
-      "tags": [
-        "designer",
-        "entity",
-        "design",
-        "asset",
-        "network"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "065",
-      "term": "Emissions Factor",
-      "definition": "Amount of greenhouse gases emitted expressed as carbon dioxide equivalent (CO2e) and relative to a unit of activity",
-      "tags": [
-        "emissions",
-        "factor",
-        "greenhouse",
-        "gases",
-        "CO2e"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "066",
-      "term": "Emissions Reduction",
-      "definition": "Quantified decrease in greenhouse gas emissions specifically related to or arising from an activity between two points in time or relative to a baseline",
-      "tags": [
-        "emissions",
-        "reduction",
-        "decrease",
-        "greenhouse",
-        "gas"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "067",
-      "term": "Co-benefits",
-      "definition": "Added benefits of decarbonization above and beyond the direct benefits of reducing greenhouse gas emissions",
-      "tags": [
-        "co-benefits",
-        "decarbonization",
-        "additional",
-        "benefits"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "General",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "068",
-      "term": "Influence",
-      "definition": "Ability of value chain member to support other value chain members to make low-carbon decisions",
-      "tags": [
-        "influence",
-        "value",
-        "chain",
-        "low-carbon",
-        "decisions"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "069",
-      "term": "Infrastructure",
-      "definition": "Basic physical and organizational structures facilities equipment and services needed for the operation of a society or organization",
-      "tags": [
-        "infrastructure",
-        "physical",
-        "structures",
-        "facilities",
-        "equipment"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "070",
-      "term": "Leadership",
-      "definition": "Ability of an individual group or organization to lead influence or guide other individuals teams or entire organizations",
-      "tags": [
-        "leadership",
-        "ability",
-        "guide",
-        "influence",
-        "organizations"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "071",
-      "term": "Life Cycle",
-      "definition": "Consecutive and interlinked stages of a product equipment or service from raw material acquisition to final disposal",
-      "tags": [
-        "life",
-        "cycle",
-        "stages",
-        "product",
-        "service",
-        "disposal"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "072",
-      "term": "Nature-based Solutions",
-      "definition": "Actions to protect sustainably manage and restore natural or modified ecosystems that address societal challenges effectively",
-      "tags": [
-        "nature-based",
-        "solutions",
-        "ecosystems",
-        "societal",
-        "challenges"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Environmental & Nature",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "073",
-      "term": "Network",
-      "definition": "Combination of interconnected assets (buildings and infrastructure) that provide services to society as part of a wider system",
-      "tags": [
-        "network",
-        "interconnected",
-        "assets",
-        "services",
-        "system"
-      ],
-      "reference": "PAS 2080:2023",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "074",
-      "term": "Anaerobic Digestion",
-      "definition": "Microbial breakdown of organic matter in the absence of oxygen",
-      "tags": [
-        "anaerobic",
-        "digestion",
-        "microbial",
-        "breakdown",
-        "organic"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "Environmental & Nature",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "075",
-      "term": "Biological Cycle",
-      "definition": "The processes such as composting and anaerobic digestion that together help to regenerate natural capital",
-      "tags": [
-        "biological",
-        "cycle",
-        "processes",
-        "composting",
-        "natural",
-        "capital"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "Environmental & Nature",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "076",
-      "term": "Durability",
-      "definition": "The ability of a product component or material to remain functional and relevant when used as intended",
-      "tags": [
-        "durability",
-        "functional",
-        "relevant",
-        "product",
-        "material"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "General",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "077",
-      "term": "Finite Materials",
-      "definition": "Materials that are non-renewable on timescales relevant to the economy such as metals minerals fossil fuels",
-      "tags": [
-        "finite",
-        "materials",
-        "non-renewable",
-        "metals",
-        "minerals"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "078",
-      "term": "Lifespan/Lifetime",
-      "definition": "The period of time from when a product is released for use after manufacture to the moment it becomes obsolete beyond recovery",
-      "tags": [
-        "lifespan",
-        "lifetime",
-        "product",
-        "manufacture",
-        "obsolete"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "079",
-      "term": "Linear Economy",
-      "definition": "An economy in which finite resources are extracted to make products that are used and then thrown away (take-make-waste)",
-      "tags": [
-        "linear",
-        "economy",
-        "finite",
-        "resources",
-        "take-make-waste"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "080",
-      "term": "Maintain",
-      "definition": "Keep a product in its existing state of quality functionally and/or cosmetically to guard against failure or decline",
-      "tags": [
-        "maintain",
-        "product",
-        "quality",
-        "functional",
-        "cosmetic"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "General",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "081",
-      "term": "Non-Virgin Materials",
-      "definition": "Materials that have been previously used",
-      "tags": [
-        "non-virgin",
-        "materials",
-        "previously",
-        "used"
-      ],
-      "reference": "Circular economy glossary",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "082",
-      "term": "Substructure",
-      "definition": "Excavations foundations basements and ground floors",
-      "tags": [
-        "substructure",
-        "excavations",
-        "foundations",
-        "basements"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "083",
-      "term": "Superstructure",
-      "definition": "Load-bearing elements above plinth including roof supporting structure",
-      "tags": [
-        "superstructure",
-        "load-bearing",
-        "elements",
-        "roof",
-        "structure"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "084",
-      "term": "Services",
-      "definition": "Installations to ensure comfort practicality accessibility and safety",
-      "tags": [
-        "services",
-        "installations",
-        "comfort",
-        "accessibility",
-        "safety"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "085",
-      "term": "Shell/Skin",
-      "definition": "The layer keeping out water wind heat cold direct sunlight and noise",
-      "tags": [
-        "shell",
-        "skin",
-        "layer",
-        "water",
-        "wind",
-        "heat"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "086",
-      "term": "Space",
-      "definition": "The layout internal walls ceilings floors finishes doors fitted furniture",
-      "tags": [
-        "space",
-        "layout",
-        "internal",
-        "walls",
-        "ceilings"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "087",
-      "term": "Site",
-      "definition": "The geographical setting urban location and external works",
-      "tags": [
-        "site",
-        "geographical",
-        "setting",
-        "urban",
-        "location"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "088",
-      "term": "Recover",
-      "definition": "Forms of recovery other than energy recovery including preparing for re-use recycling and backfilling",
-      "tags": [
-        "recover",
-        "recovery",
-        "re-use",
-        "recycling",
-        "backfilling"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "089",
-      "term": "Reduce",
-      "definition": "Design manufacture and use of products that use materials and resources efficiently throughout the entire life cycle",
-      "tags": [
-        "reduce",
-        "design",
-        "manufacture",
-        "efficient",
-        "resources"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "090",
-      "term": "Refurbish",
-      "definition": "Redeveloped for similar needs and uses but meeting current regulations through restoring refinishing and future proofing",
-      "tags": [
-        "refurbish",
-        "redeveloped",
-        "similar",
-        "needs",
-        "regulations"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "091",
-      "term": "Repurpose",
-      "definition": "Redeveloped to accommodate different needs and/or uses with significant changes and replacement of shorter-life parts",
-      "tags": [
-        "repurpose",
-        "redeveloped",
-        "different",
-        "needs",
-        "changes"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "092",
-      "term": "Reusability (Design for)",
-      "definition": "Designed to be redeployed as modules or reused as a kit of parts while minimising any servicing",
-      "tags": [
-        "reusability",
-        "design",
-        "modules",
-        "kit",
-        "parts"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "093",
-      "term": "Recoverability (Design for)",
-      "definition": "Designed to be deconstructed and reused or recycled on a part by part basis",
-      "tags": [
-        "recoverability",
-        "design",
-        "deconstructed",
-        "recycled",
-        "parts"
-      ],
-      "reference": "Design for a Circular Economy",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "094",
-      "term": "BREEAM",
-      "definition": "Building Research Establishment Environmental Assessment Method - world's leading sustainability assessment method for buildings established in 1990",
-      "tags": [
-        "BREEAM",
-        "building",
-        "research",
-        "establishment",
-        "environmental",
-        "assessment"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "095",
-      "term": "LEED",
-      "definition": "Leadership in Energy and Environmental Design - international green building certification program developed by US Green Building Council",
-      "tags": [
-        "LEED",
-        "leadership",
-        "energy",
-        "environmental",
-        "design",
-        "certification"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
     {
-      "id": "096",
-      "term": "RICS",
-      "definition": "Royal Institution of Chartered Surveyors - professional body promoting and enforcing highest international standards in valuation land economy and built environment",
+      "id": "410",
+      "term": "RICS WLCA Professional Statement",
+      "definition": "Whole life carbon assessment for the built environment Professional standard, global 2nd edition (September 2023). RICS-approved technical methodology providing practical implementation of EN 15978, EN 17472, EN 15643 and EN 15804 with UK-specific guidance on data sources and assumptions for consistent WLC measurement",
       "tags": [
         "RICS",
-        "royal",
-        "institution",
-        "chartered",
-        "surveyors",
-        "professional"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "097",
-      "term": "GIA",
-      "definition": "Gross Internal Area - a measure of building floor area",
-      "tags": [
-        "GIA",
-        "gross",
-        "internal",
-        "area",
-        "building"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "098",
-      "term": "RIBA",
-      "definition": "Royal Institute of British Architects - professional body and work stage framework",
-      "tags": [
-        "RIBA",
-        "architects",
-        "professional",
-        "work",
-        "stages"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "099",
-      "term": "CLT",
-      "definition": "Cross Laminated Timber - engineered wood product made from layers of lumber boards stacked crosswise and glued together",
-      "tags": [
-        "CLT",
-        "cross-laminated",
-        "timber",
-        "engineered",
-        "wood",
-        "layers"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "100",
-      "term": "FSC",
-      "definition": "Forest Stewardship Council - certification for responsible forest management",
-      "tags": [
-        "FSC",
-        "forest",
-        "stewardship",
-        "council",
-        "certification"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Environmental & Nature",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "101",
-      "term": "GGBS",
-      "definition": "Ground Granulated Blast-furnace Slag - by-product of iron production used as supplementary cementitious material to replace cement",
-      "tags": [
-        "GGBS",
-        "ground",
-        "granulated",
-        "blast-furnace",
-        "slag",
-        "iron"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "102",
-      "term": "PFA",
-      "definition": "Pulverised Fuel Ash - by-product of coal combustion used as supplementary cementitious material in concrete",
-      "tags": [
-        "PFA",
-        "pulverised",
-        "fuel",
-        "ash",
-        "cement",
-        "coal"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "103",
-      "term": "GWP",
-      "definition": "Global Warming Potential - measure of how much heat greenhouse gas traps in atmosphere compared to carbon dioxide",
-      "tags": [
-        "GWP",
-        "global",
-        "warming",
-        "potential",
-        "heat",
-        "greenhouse",
-        "gas"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "104",
-      "term": "DfMA",
-      "definition": "Design for Manufacture and Assembly - approach to simplify construction",
-      "tags": [
-        "DfMA",
-        "design",
-        "manufacture",
-        "assembly",
-        "construction"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "105",
-      "term": "DSM",
-      "definition": "Dynamic Simulation Modelling - computational modelling technique",
-      "tags": [
-        "DSM",
-        "dynamic",
-        "simulation",
-        "modelling",
-        "computational"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Technology & Data",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "106",
-      "term": "EUI",
-      "definition": "Energy Use Intensity - measure of energy efficiency in buildings",
-      "tags": [
-        "EUI",
-        "energy",
-        "use",
-        "intensity",
-        "efficiency",
-        "buildings"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "107",
-      "term": "NBS",
-      "definition": "National Building Specification - UK building specification system",
-      "tags": [
-        "NBS",
-        "national",
-        "building",
-        "specification",
-        "UK"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Built Environment",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "108",
-      "term": "NRM",
-      "definition": "New Rules of Measurements - UK quantity surveying measurement standard",
-      "tags": [
-        "NRM",
-        "new",
-        "rules",
-        "measurements",
-        "quantity",
-        "surveying"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "109",
-      "term": "UKGBC",
-      "definition": "United Kingdom Green Building Council - industry body promoting sustainable building practices in UK",
-      "tags": [
-        "UKGBC",
-        "green",
-        "building",
-        "council",
-        "sustainable",
-        "practices"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Corporate Sustainability",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "110",
-      "term": "WGBC",
-      "definition": "World Green Building Council - global network for sustainable building",
-      "tags": [
-        "WGBC",
-        "world",
-        "green",
-        "building",
-        "council",
-        "global"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Corporate Sustainability",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "111",
-      "term": "CIBSE",
-      "definition": "Chartered Institution of Building Services Engineers - professional engineering institution representing building services engineers",
-      "tags": [
-        "CIBSE",
-        "chartered",
-        "institution",
-        "building",
-        "services",
-        "engineers"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Business & Management",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "112",
-      "term": "GRC",
-      "definition": "Glass Reinforced Concrete - composite building material",
-      "tags": [
-        "GRC",
-        "glass",
-        "reinforced",
-        "concrete",
-        "composite"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Materials & Waste",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "113",
-      "term": "IEA",
-      "definition": "International Energy Agency - intergovernmental energy organization",
-      "tags": [
-        "IEA",
-        "international",
-        "energy",
-        "agency",
-        "government"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Corporate Sustainability",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "114",
-      "term": "LETI",
-      "definition": "London Energy Transformation Initiative - industry collaboration working to make London's built environment compatible with 1.5°C trajectory",
-      "tags": [
-        "LETI",
-        "london",
-        "energy",
-        "transformation",
-        "net",
-        "zero"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Corporate Sustainability",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "115",
-      "term": "Biogenic Carbon",
-      "definition": "Carbon stored in biomaterials such as timber from atmospheric CO2",
-      "tags": [
-        "biogenic",
-        "carbon",
-        "biomaterials",
-        "timber",
-        "atmospheric"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "116",
-      "term": "EN 15978",
-      "definition": "European Standard for sustainability of construction works assessment of environmental performance of buildings calculation method",
-      "tags": [
-        "EN",
-        "15978",
-        "european",
-        "standard",
-        "building",
-        "assessment"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "117",
-      "term": "EN 17472",
-      "definition": "European Standard for sustainability of construction works sustainability assessment of civil engineering works calculation methods",
-      "tags": [
-        "EN",
-        "17472",
-        "european",
-        "standard",
-        "civil",
-        "engineering"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "118",
-      "term": "EN 15804",
-      "definition": "European Standard for sustainability of construction works environmental product declarations core rules for construction products",
-      "tags": [
-        "EN",
-        "15804",
-        "european",
-        "standard",
-        "product",
-        "declarations"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "119",
-      "term": "ISO 14040",
-      "definition": "International Standard for environmental management life cycle assessment principles and framework",
-      "tags": [
-        "ISO",
-        "14040",
-        "international",
-        "standard",
-        "lifecycle",
-        "assessment"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "120",
-      "term": "ISO 14044",
-      "definition": "International Standard for environmental management life cycle assessment requirements and guidelines",
-      "tags": [
-        "ISO",
-        "14044",
-        "international",
-        "standard",
-        "lifecycle",
-        "requirements"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "121",
-      "term": "Cradle to Gate",
-      "definition": "Assessment approach covering production phase from raw materials to factory gate (Modules A1-A3)",
-      "tags": [
-        "cradle",
-        "gate",
-        "assessment",
-        "production",
-        "materials"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "122",
-      "term": "Cradle to Practical Completion",
-      "definition": "Assessment approach covering stages A1-A3 and A4-A5 up to project completion",
-      "tags": [
-        "cradle",
-        "practical",
-        "completion",
-        "assessment",
-        "stages"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "123",
-      "term": "Cradle to Grave",
-      "definition": "Assessment approach covering entire lifecycle from raw materials to disposal (Modules A-C)",
-      "tags": [
-        "cradle",
-        "grave",
-        "assessment",
-        "lifecycle",
-        "disposal"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "124",
-      "term": "Cradle to Cradle",
-      "definition": "Assessment approach covering stages A-B-C and Module D including benefits beyond system boundary",
-      "tags": [
-        "cradle",
-        "cradle",
-        "assessment",
-        "benefits",
-        "system"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "125",
-      "term": "Reference Study Period (RSP)",
-      "definition": "Period of time considered for the LCA study affecting results related to in-use stage replacements",
-      "tags": [
-        "reference",
-        "study",
-        "period",
-        "LCA",
-        "time"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "126",
-      "term": "System Boundary",
-      "definition": "Definition of which life cycle stages are considered in the LCA study",
-      "tags": [
-        "system",
-        "boundary",
-        "lifecycle",
-        "stages",
-        "LCA"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "127",
-      "term": "Product Stage",
-      "definition": "Life cycle stage covering modules A1-A3 including raw material extraction transport and manufacturing",
-      "tags": [
-        "product",
-        "stage",
-        "A1-A3",
-        "materials",
-        "manufacturing"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "128",
-      "term": "Construction Stage",
-      "definition": "Life cycle stage covering modules A4-A5 including transport to site and construction processes",
-      "tags": [
-        "construction",
-        "stage",
-        "A4-A5",
-        "transport",
-        "site"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "129",
-      "term": "Use Stage",
-      "definition": "Life cycle stage covering modules B1-B8 including all emissions during asset operation",
-      "tags": [
-        "use",
-        "stage",
-        "B1-B8",
-        "operation",
-        "emissions"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "130",
-      "term": "End-of-Life Stage",
-      "definition": "Life cycle stage covering modules C1-C4 including deconstruction waste processing and disposal",
-      "tags": [
-        "end-of-life",
-        "stage",
-        "C1-C4",
-        "deconstruction",
-        "disposal"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "131",
-      "term": "Benefits and Loads Beyond System Boundary",
-      "definition": "Module D covering potential benefits and loads from reuse recycling and exported utilities",
-      "tags": [
-        "benefits",
-        "loads",
-        "module",
-        "D",
-        "reuse",
-        "recycling"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "132",
-      "term": "Whole Life Carbon Assessment (WLCA)",
-      "definition": "Calculation and reporting of carbon impacts throughout all life cycle stages of a project including assessment of benefits beyond system boundary",
-      "tags": [
         "WLCA",
-        "calculation",
-        "reporting",
-        "lifecycle",
-        "impacts"
+        "professional",
+        "standard",
+        "methodology",
+        "implementation"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
     {
-      "id": "133",
-      "term": "ICMS 3",
-      "definition": "International Construction Measurement Standards providing cost classification system",
+      "id": "411",
+      "term": "ISO 20887:2020",
+      "definition": "Sustainability in buildings and civil engineering works – Design for disassembly and adaptability – Principles, requirements and guidance. International standard (2020) providing framework for designing buildings and infrastructure for end-of-life material recovery and reuse",
       "tags": [
-        "ICMS",
-        "3",
-        "international",
-        "construction",
-        "measurement",
-        "standards"
+        "ISO",
+        "20887",
+        "sustainability",
+        "disassembly",
+        "adaptability",
+        "framework"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
     {
-      "id": "134",
-      "term": "Global Warming Potential (GWP)",
-      "definition": "Common unit of measurement for GHG emissions allowing representation of all GHGs associated with material or process through standard unit",
+      "id": "412",
+      "term": "Capital Carbon",
+      "definition": "GHG emissions and removals associated with the creation and end-of-life treatment of an asset, network or system, and optionally with its maintenance and refurbishment",
       "tags": [
-        "GWP",
-        "global",
-        "warming",
-        "potential",
-        "measurement"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "135",
-      "term": "Carbon Dioxide Equivalent (CO2e)",
-      "definition": "Standard unit expressing GWP of greenhouse gases in terms of carbon dioxide",
-      "tags": [
-        "CO2e",
+        "capital",
         "carbon",
-        "dioxide",
-        "equivalent",
-        "unit"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "136",
-      "term": "Material Resource Banks",
-      "definition": "Concept of buildings as stores of materials that can be recovered at end of life",
-      "tags": [
-        "material",
-        "resource",
-        "banks",
-        "buildings",
-        "stores",
-        "recovery"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Circular Economy",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "137",
-      "term": "Carbon Budget",
-      "definition": "A finite amount of carbon dioxide that can be emitted for a given level of global warming",
-      "tags": [
-        "carbon",
-        "budget",
-        "finite",
+        "GHG",
         "emissions",
-        "global",
-        "warming"
+        "creation",
+        "end-of-life"
       ],
-      "reference": "LETI Embodied Carbon Primer",
+      "reference": "PAS 2080:2023",
       "category": "Carbon & Climate",
       "dateAdded": "2025-06-28"
     },
     {
-      "id": "138",
-      "term": "Embodied Energy",
-      "definition": "The total energy required for the extraction processing manufacture transportation and assembly of building materials",
+      "id": "413",
+      "term": "User Carbon",
+      "definition": "greenhouse gas emissions associated with users' utilization of an asset, network and/or system, and the service it provides during operation",
       "tags": [
-        "embodied",
-        "energy",
-        "extraction",
-        "processing",
-        "manufacture",
-        "transportation"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "139",
-      "term": "Operational Energy",
-      "definition": "Energy consumed during the operational phase of a building for heating cooling lighting ventilation and equipment",
-      "tags": [
-        "operational",
-        "energy",
-        "heating",
-        "cooling",
-        "lighting",
-        "ventilation"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "140",
-      "term": "Carbon Intensity",
-      "definition": "The amount of carbon dioxide released per unit of energy consumed",
-      "tags": [
+        "user",
         "carbon",
-        "intensity",
-        "carbon",
-        "dioxide",
-        "energy",
-        "unit"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Carbon & Climate",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "141",
-      "term": "TM65",
-      "definition": "CIBSE Technical Memorandum for embodied carbon of building services calculation methodology",
-      "tags": [
-        "TM65",
-        "CIBSE",
-        "building",
-        "services",
-        "calculation"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "142",
-      "term": "Greenhouse Gas Protocol",
-      "definition": "International standard for corporate GHG emissions accounting and reporting",
-      "tags": [
         "greenhouse",
         "gas",
-        "protocol",
-        "corporate",
-        "accounting"
+        "emissions",
+        "utilization",
+        "operation"
       ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
+      "reference": "PAS 2080:2023",
+      "category": "Carbon & Climate",
       "dateAdded": "2025-06-28"
     },
     {
-      "id": "143",
-      "term": "SKA",
-      "definition": "Sustainable Knowledge Asset rating system for fit-out projects",
+      "id": "414",
+      "term": "Target",
+      "definition": "desired quantity of carbon emissions (defined as an absolute value or as a reduction amount/percentage against a baseline value) that a project or programme of works is to achieve over its temporal extent",
       "tags": [
-        "SKA",
-        "sustainable",
-        "knowledge",
-        "asset",
-        "rating"
+        "target",
+        "carbon",
+        "emissions",
+        "absolute",
+        "value",
+        "reduction",
+        "baseline"
       ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
+      "reference": "PAS 2080:2023",
+      "category": "Carbon & Climate",
       "dateAdded": "2025-06-28"
     },
     {
-      "id": "144",
-      "term": "Part L",
-      "definition": "UK Building Regulations covering conservation of fuel and power",
+      "id": "415",
+      "term": "System",
+      "definition": "collection and interconnection of all physical facilities and human interactions that are operated in a coordinated way to provide a particular service",
       "tags": [
-        "Part",
-        "L",
-        "building",
-        "regulations",
-        "fuel",
-        "power"
+        "system",
+        "collection",
+        "interconnection",
+        "physical",
+        "facilities",
+        "coordinated",
+        "service"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "PAS 2080:2023",
       "category": "Built Environment",
       "dateAdded": "2025-06-28"
     },
     {
-      "id": "145",
-      "term": "Net Flow Methodology",
-      "definition": "Methodology in Module D that seeks to avoid double counting benefits of reused and recycled materials",
+      "id": "416",
+      "term": "Carbon Offset",
+      "definition": "discrete reduction in greenhouse gas emissions not arising from the defined subject, made available in the form of a carbon credit meeting a defined set of requirements (as per PAS 2060:2014) and used to counteract emissions from the defined subject",
       "tags": [
-        "net",
-        "flow",
-        "methodology",
-        "module",
-        "D",
-        "double",
-        "counting"
-      ],
-      "reference": "Whole life carbon assessment PS",
-      "category": "Assessment & Lifecycle",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "146",
-      "term": "GaBi Database",
-      "definition": "Life cycle inventory database containing environmental data for materials and processes",
-      "tags": [
-        "GaBi",
-        "database",
-        "lifecycle",
-        "inventory",
-        "environmental"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Technology & Data",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "147",
-      "term": "ICE Database",
-      "definition": "Inventory of Carbon and Energy database from University of Bath",
-      "tags": [
-        "ICE",
-        "database",
         "carbon",
-        "energy",
-        "inventory"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Technology & Data",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "148",
-      "term": "TRACI",
-      "definition": "Tool for the Reduction and Assessment of Chemical Impacts - LCIA methodology",
-      "tags": [
-        "TRACI",
+        "offset",
+        "discrete",
         "reduction",
-        "assessment",
-        "chemical",
-        "impacts"
+        "greenhouse",
+        "gas",
+        "credit"
       ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Technology & Data",
-      "dateAdded": "2025-06-28"
-    },
-    {
-      "id": "149",
-      "term": "CML",
-      "definition": "Centrum voor Milieukunde Leiden - LCIA methodology used in environmental assessment",
-      "tags": [
-        "CML",
-        "centrum",
-        "milieukunde",
-        "leiden",
-        "methodology"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Technology & Data",
+      "reference": "PAS 2080:2023",
+      "category": "Carbon & Climate",
       "dateAdded": "2025-06-28"
     }
   ]
