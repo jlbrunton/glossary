@@ -3,16 +3,17 @@
     "version": "2.0",
     "lastUpdated": "2025-06-28",
     "description": "Comprehensive Sustainability & Construction Glossary",
-    "totalTerms": 409,
+    "totalTerms": 408,
     "sources": [
       "Circular economy glossary",
       "Climate jargon buster",
       "Design for a Circular Economy",
       "LETI Embodied Carbon Primer",
       "PAS 2080:2023",
+      "PAS 2080:2023; RICS Whole Life Carbon Assessment Professional Statement",
       "WBCSD Path to Alignment",
-      "Whole life carbon assessment PS",
-      "Westminster City Council Topic Paper: Retrofit first and reducing embodied carbon"
+      "Westminster City Council Topic Paper: Retrofit first and reducing embodied carbon (February 2024)",
+      "Whole life carbon assessment PS"
     ]
   },
   "categories": [
@@ -44,20 +45,23 @@
       "dateAdded": "2025-06-28"
     },
     {
-     "id": "152", 
-     "term": "H\B:ERT",
-  "definition": "Hawkins Brown Embodied Carbon Reduction Toolkit - a proprietary assessment tool for evaluating building embodied carbon across life cycle stages A1-A5, B4 and C1-C4 according to BS EN 15978:2011, producing visual carbon breakdowns by material and building element.",
-  "tags": [
-    "embodied carbon",
-    "assessment tool",
-    "Hawkins Brown",
-    "LCA",
-    "toolkit"
-  ],
-  "reference": "LETI Embodied Carbon Primer",
-  "category": "Technology & Data",
-  "dateAdded": "2025-06-28"
-},
+      "id": "152",
+      "term": "H\\B:ERT",
+      "definition": "HB Carbon Emissions Reduction Toolkit - free British tool based on generic data from ICE database at University of Bath for building lifecycle carbon assessment",
+      "tags": [
+        "HB",
+        "ERT",
+        "british",
+        "tool",
+        "ICE",
+        "database",
+        "carbon",
+        "assessment"
+      ],
+      "reference": "LETI Embodied Carbon Primer",
+      "category": "Technology & Data",
+      "dateAdded": "2025-06-28"
+    },
     {
       "id": "153",
       "term": "Tally",
@@ -4161,6 +4165,43 @@
     },
     {
       "id": "407",
+      "term": "Retrofit First",
+      "definition": "A policy approach that prioritizes the retention and refurbishment of existing buildings over demolition and redevelopment to reduce embodied carbon emissions. The approach requires demonstration that retrofit options have been fully explored before demolition is considered typically through an options appraisal exercise comparing retrofit deep retrofit and new build scenarios based on carbon impact public benefits operational requirements and structural feasibility",
+      "tags": [
+        "retrofit",
+        "embodied",
+        "carbon",
+        "demolition",
+        "policy",
+        "approach",
+        "options",
+        "appraisal",
+        "carbon",
+        "reduction"
+      ],
+      "reference": "Westminster City Council Topic Paper: Retrofit first and reducing embodied carbon (February 2024)",
+      "category": "Circular Economy",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "408",
+      "term": "Functional Unit",
+      "definition": "Quantified performance of a product or system for use as a reference unit. The functional unit takes into account a function a quantity a duration and a quality of the asset network or system being assessed. In RICS WLCA functional units serve as primary and secondary normalisation units and are mandatory reporting requirements for assessments",
+      "tags": [
+        "normalisation",
+        "assessment",
+        "WLCA",
+        "performance",
+        "reference",
+        "unit",
+        "comparison"
+      ],
+      "reference": "PAS 2080:2023; RICS Whole Life Carbon Assessment Professional Statement",
+      "category": "Assessment & Lifecycle",
+      "dateAdded": "2025-06-28"
+    },
+    {
+      "id": "409",
       "term": "Waste-to-Energy",
       "definition": "Process of generating energy in form of electricity or heat from primary treatment of waste",
       "tags": [
@@ -4176,38 +4217,6 @@
       "category": "Technology & Data",
       "dateAdded": "2025-06-28ID"
     },
-{
- "id": "408",
- "term": "Retrofit First",
- "definition": "A policy approach that prioritizes the retention and refurbishment of existing buildings over demolition and redevelopment to reduce embodied carbon emissions. The approach requires demonstration that retrofit options have been fully explored before demolition is considered, typically through an options appraisal exercise comparing retrofit, deep retrofit, and new build scenarios based on carbon impact, public benefits, operational requirements, and structural feasibility.",
- "tags": [
-   "retrofit",
-   "embodied carbon",
-   "demolition",
-   "policy approach",
-   "options appraisal",
-   "carbon reduction"
- ],
- "reference": "Westminster City Council Topic Paper: Retrofit first and reducing embodied carbon",
- "category": "Circular Economy",
- "dateAdded": "2025-06-28"
-},
-{
- "id": "409",
- "term": "Functional Unit",
- "definition": "Quantified performance of a product or system for use as a reference unit. The functional unit takes into account a function, a quantity, a duration, and a quality of the asset, network or system being assessed. In RICS WLCA, functional units serve as primary and secondary normalisation units (e.g., GIA for buildings, NIA for offices) and are mandatory reporting requirements for assessments.",
- "tags": [
-   "normalisation",
-   "assessment",
-   "WLCA",
-   "performance",
-   "reference unit",
-   "comparison"
- ],
- "reference": "PAS 2080:2023; RICS Whole Life Carbon Assessment Professional Statement",
- "category": "Assessment & Lifecycle",
- "dateAdded": "2025-06-28"
-},
     {
       "id": "001",
       "term": "Embodied Carbon (EC)",
