@@ -606,16 +606,34 @@
             const termTags = term.tags.map(tag => tag.toLowerCase()).join(' ');
             const searchLower = searchTerm.toLowerCase();
             
+            // Clean term name by removing common abbreviations in parentheses for better matching
+            const cleanTermName = termName.replace(/\s*\([^)]*\)\s*$/g, '').trim();
+            
             let score = 0;
             
-            // Exact match in term name (highest priority)
-            if (termName === searchLower) score += 100;
+            // Exact match in clean term name (highest priority)
+            if (cleanTermName === searchLower) score += 200;
+            
+            // Exact match in full term name
+            if (termName === searchLower) score += 150;
+            
+            // Clean term name starts with search term
+            if (cleanTermName.startsWith(searchLower)) score += 100;
             
             // Term name starts with search term
-            if (termName.startsWith(searchLower)) score += 50;
+            if (termName.startsWith(searchLower)) score += 80;
+            
+            // Clean term name contains search term as whole words
+            if (cleanTermName.includes(searchLower)) {
+                const words = searchLower.split(' ');
+                const allWordsMatch = words.every(word => 
+                    new RegExp(`\\b${word}\\b`, 'i').test(cleanTermName)
+                );
+                if (allWordsMatch) score += 60;
+            }
             
             // Term name contains search term
-            if (termName.includes(searchLower)) score += 20;
+            if (termName.includes(searchLower)) score += 30;
             
             // Definition starts with search term
             if (termDefinition.startsWith(searchLower)) score += 15;
