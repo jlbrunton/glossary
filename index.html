@@ -182,6 +182,85 @@
             color: var(--aecom-white);
         }
 
+        /* Clear filter button */
+        .clear-filter {
+            background: var(--aecom-medium-gray);
+            color: var(--aecom-white);
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-left: 8px;
+        }
+
+        .clear-filter:hover {
+            background: var(--aecom-dark-gray);
+        }
+
+        /* Top Hit Section */
+        .top-hit-section {
+            margin-bottom: 32px;
+        }
+
+        .top-hit-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .top-hit-label {
+            background: var(--aecom-coral-orange);
+            color: var(--aecom-white);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .top-hit-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--aecom-midnight-teal);
+        }
+
+        .top-hit-item {
+            background: linear-gradient(135deg, var(--aecom-white) 0%, #f8fffe 100%);
+            border: 2px solid var(--aecom-coral-orange);
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 8px 24px rgba(229, 39, 19, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .top-hit-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--aecom-coral-orange), var(--aecom-earth-green));
+        }
+
+        .top-hit-item .term-name {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--aecom-midnight-teal);
+            margin-bottom: 12px;
+        }
+
+        .top-hit-item .term-definition {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
         .term-list {
             display: grid;
             gap: 24px;
@@ -277,6 +356,14 @@
             .alphabet-nav {
                 justify-content: center;
             }
+
+            .top-hit-item {
+                padding: 24px;
+            }
+
+            .top-hit-item .term-name {
+                font-size: 20px;
+            }
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -289,8 +376,6 @@
     </style>
 </head>
 <body>
-
-
     <section class="search-section">
         <div class="container">
             <div class="search-container">
@@ -345,6 +430,7 @@
                 <a href="#X" class="alphabet-link" data-letter="X">X</a>
                 <a href="#Y" class="alphabet-link" data-letter="Y">Y</a>
                 <a href="#Z" class="alphabet-link" data-letter="Z">Z</a>
+                <button class="clear-filter" id="clearLetterFilter" style="display: none;">Clear filter</button>
             </nav>
 
             <!-- Loading State -->
@@ -357,6 +443,17 @@
             <div class="error" id="errorState" style="display: none;">
                 <h3>Unable to load glossary</h3>
                 <p>Please check that the glossary-terms.json file is in the correct location.</p>
+            </div>
+
+            <!-- Top Hit Section -->
+            <div class="top-hit-section" id="topHitSection" style="display: none;">
+                <div class="top-hit-header">
+                    <span class="top-hit-label">Top Hit</span>
+                    <span class="top-hit-title">Best match for your search</span>
+                </div>
+                <div id="topHitContainer">
+                    <!-- Top hit will be populated by JavaScript -->
+                </div>
             </div>
 
             <!-- Terms Container -->
@@ -383,6 +480,7 @@
         let glossaryData = [];
         let filteredData = [];
         let currentFilter = 'all';
+        let currentLetterFilter = null;
         let isLoading = true;
 
         // Configuration
@@ -494,23 +592,106 @@
                     e.target.classList.add('active');
                 }
             });
+
+            // Clear letter filter button
+            document.getElementById('clearLetterFilter').addEventListener('click', function() {
+                clearLetterFilter();
+            });
+        }
+
+        // Calculate relevance score for search ranking
+        function calculateRelevanceScore(term, searchTerm) {
+            const termName = term.term.toLowerCase();
+            const termDefinition = term.definition.toLowerCase();
+            const termTags = term.tags.map(tag => tag.toLowerCase()).join(' ');
+            const searchLower = searchTerm.toLowerCase();
+            
+            let score = 0;
+            
+            // Exact match in term name (highest priority)
+            if (termName === searchLower) score += 100;
+            
+            // Term name starts with search term
+            if (termName.startsWith(searchLower)) score += 50;
+            
+            // Term name contains search term
+            if (termName.includes(searchLower)) score += 20;
+            
+            // Definition starts with search term
+            if (termDefinition.startsWith(searchLower)) score += 15;
+            
+            // Definition contains search term
+            if (termDefinition.includes(searchLower)) score += 10;
+            
+            // Tags contain search term
+            if (termTags.includes(searchLower)) score += 25;
+            
+            // Reference contains search term
+            if (term.reference.toLowerCase().includes(searchLower)) score += 5;
+            
+            return score;
         }
 
         // Render terms to the DOM
-        function renderTerms(terms) {
+        function renderTerms(terms, searchTerm = '') {
             const termList = document.getElementById('termList');
             const noResults = document.getElementById('noResults');
+            const topHitSection = document.getElementById('topHitSection');
+            const topHitContainer = document.getElementById('topHitContainer');
             
             if (terms.length === 0) {
                 termList.style.display = 'none';
                 noResults.style.display = 'block';
+                topHitSection.style.display = 'none';
                 return;
             }
 
             noResults.style.display = 'none';
             termList.style.display = 'block';
             
-            const termsHTML = terms.map(term => {
+            // Handle top hit for search results
+            let topHit = null;
+            let remainingTerms = terms;
+            
+            if (searchTerm && terms.length > 1) {
+                // Calculate relevance scores and sort
+                const scoredTerms = terms.map(term => ({
+                    ...term,
+                    relevanceScore: calculateRelevanceScore(term, searchTerm)
+                })).sort((a, b) => b.relevanceScore - a.relevanceScore);
+                
+                // Only show top hit if it has a significantly higher score than others
+                if (scoredTerms[0].relevanceScore > scoredTerms[1].relevanceScore && scoredTerms[0].relevanceScore > 10) {
+                    topHit = scoredTerms[0];
+                    remainingTerms = scoredTerms.slice(1);
+                } else {
+                    remainingTerms = scoredTerms;
+                }
+            }
+            
+            // Render top hit
+            if (topHit) {
+                topHitSection.style.display = 'block';
+                const tagsHTML = topHit.tags.map(tag => 
+                    `<span class="term-tag">${tag}</span>`
+                ).join('');
+                
+                topHitContainer.innerHTML = `
+                    <div class="top-hit-item">
+                        <h3 class="term-name">${topHit.term}</h3>
+                        <p class="term-definition">${topHit.definition}</p>
+                        <div class="term-meta">
+                            <div class="term-tags">${tagsHTML}</div>
+                            <div class="term-reference">${topHit.reference}</div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                topHitSection.style.display = 'none';
+            }
+            
+            // Render remaining terms
+            const termsHTML = remainingTerms.map(term => {
                 const tagsHTML = term.tags.map(tag => 
                     `<span class="term-tag">${tag}</span>`
                 ).join('');
@@ -569,29 +750,39 @@
                 );
             }
 
+            // Apply letter filter
+            if (currentLetterFilter) {
+                filtered = filtered.filter(term => 
+                    term.term.charAt(0).toLowerCase() === currentLetterFilter.toLowerCase()
+                );
+            }
+
             filteredData = filtered;
-            renderTerms(filtered);
+            renderTerms(filtered, searchTerm);
             updateResultsInfo(filtered.length, glossaryData.length);
         }
 
         // Filter by letter
         function filterByLetter(letter) {
-            const filtered = glossaryData.filter(term => 
-                term.term.charAt(0).toLowerCase() === letter.toLowerCase()
-            );
+            currentLetterFilter = letter;
             
-            renderTerms(filtered);
-            updateResultsInfo(filtered.length, glossaryData.length);
+            // Show clear filter button
+            document.getElementById('clearLetterFilter').style.display = 'inline-block';
             
-            // Clear search input and reset filter
-            document.getElementById('searchInput').value = '';
-            document.querySelectorAll('.filter-tag').forEach(tag => {
-                tag.classList.remove('active');
-                if (tag.dataset.filter === 'all') {
-                    tag.classList.add('active');
-                }
-            });
-            currentFilter = 'all';
+            performSearch(); // Use the main search function to apply all filters
+        }
+
+        // Clear letter filter
+        function clearLetterFilter() {
+            currentLetterFilter = null;
+            
+            // Hide clear filter button
+            document.getElementById('clearLetterFilter').style.display = 'none';
+            
+            // Remove active state from alphabet links
+            document.querySelectorAll('.alphabet-link').forEach(link => link.classList.remove('active'));
+            
+            performSearch(); // Refresh results without letter filter
         }
 
         // Show error state
@@ -617,6 +808,30 @@
         // Fallback data in case JSON loading fails
         function getFallbackData() {
             return [
+                {
+                    "id": "carbon-footprint",
+                    "term": "Carbon Footprint",
+                    "definition": "The total amount of greenhouse gases produced directly and indirectly by human activities, typically measured in carbon dioxide equivalents.",
+                    "tags": ["Environmental", "Sustainability", "Measurement"],
+                    "reference": "ISO 14067:2018",
+                    "category": "Environmental"
+                },
+                {
+                    "id": "leed",
+                    "term": "LEED",
+                    "definition": "Leadership in Energy and Environmental Design - a green building certification program that recognizes best-in-class building strategies and practices.",
+                    "tags": ["Certification", "Green Building", "Sustainability"],
+                    "reference": "USGBC",
+                    "category": "Certification"
+                },
+                {
+                    "id": "sustainable-design",
+                    "term": "Sustainable Design",
+                    "definition": "An approach to design that seeks to reduce negative impacts on the environment through thoughtful design choices.",
+                    "tags": ["Design", "Environment", "Sustainability"],
+                    "reference": "AECOM Design Standards",
+                    "category": "Design"
+                },
                 {
                     "id": "loading-error",
                     "term": "Data Loading Error",
