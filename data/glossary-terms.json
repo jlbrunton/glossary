@@ -10,12 +10,10 @@
       "Design for a Circular Economy",
       "LETI Embodied Carbon Primer",
       "PAS 2080:2023",
-      "PAS 2080:2023 Bibliography",
-      "PAS 2080:2023; RICS Whole Life Carbon Assessment Professional Statement",
+      "PAS 2080:2023; RICS WLCA Professional Statement",
       "RICS WLCA Professional Statement",
       "WBCSD Path to Alignment",
-      "Westminster City Council Topic Paper: Retrofit first and reducing embodied carbon",
-      "Whole life carbon assessment PS"
+      "Westminster City Council Topic Paper: Retrofit first and reducing embodied carbon"
     ]
   },
   "categories": [
@@ -281,7 +279,7 @@
         "planning",
         "design"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -297,7 +295,7 @@
         "extraction",
         "supply"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -312,7 +310,7 @@
         "manufacturing",
         "materials"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -327,7 +325,7 @@
         "fabrication",
         "production"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -343,7 +341,7 @@
         "construction",
         "products"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -359,7 +357,7 @@
         "process",
         "waste"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -375,7 +373,7 @@
         "emissions",
         "products"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -390,7 +388,7 @@
         "materials",
         "emissions"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -405,7 +403,7 @@
         "materials",
         "emissions"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -420,7 +418,7 @@
         "materials",
         "emissions"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -435,7 +433,7 @@
         "planned",
         "performance"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -450,7 +448,7 @@
         "energy",
         "use"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -465,7 +463,7 @@
         "water",
         "use"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -481,7 +479,7 @@
         "user",
         "activities"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -496,7 +494,7 @@
         "demolition",
         "end-of-life"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -512,7 +510,7 @@
         "waste",
         "materials"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -528,7 +526,7 @@
         "recovery",
         "recycling"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -544,7 +542,7 @@
         "landfill",
         "incineration"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -560,7 +558,7 @@
         "reuse",
         "recycling"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -576,7 +574,7 @@
         "electricity",
         "water"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -1489,7 +1487,7 @@
         "surveyors",
         "professional"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -1504,7 +1502,7 @@
         "area",
         "building"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -1837,7 +1835,7 @@
         "declarations",
         "EPDs"
       ],
-      "reference": "PAS 2080:2023 Bibliography",
+      "reference": "PAS 2080:2023",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -1872,7 +1870,7 @@
         "requirements",
         "guidelines"
       ],
-      "reference": "PAS 2080:2023 Bibliography",
+      "reference": "PAS 2080:2023",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -1977,7 +1975,7 @@
         "materials",
         "manufacturing"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -1992,7 +1990,7 @@
         "transport",
         "site"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -2007,7 +2005,7 @@
         "operation",
         "emissions"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -2022,7 +2020,7 @@
         "deconstruction",
         "disposal"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -2038,7 +2036,7 @@
         "reuse",
         "recycling"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -2053,7 +2051,7 @@
         "lifecycle",
         "impacts"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -2069,7 +2067,7 @@
         "measurement",
         "standards"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -2084,7 +2082,7 @@
         "potential",
         "measurement"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Carbon & Climate",
       "dateAdded": "2025-06-28"
     },
@@ -2099,7 +2097,7 @@
         "equivalent",
         "unit"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Carbon & Climate",
       "dateAdded": "2025-06-28"
     },
@@ -2211,7 +2209,7 @@
         "corporate",
         "accounting"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -2226,7 +2224,7 @@
         "asset",
         "rating"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -2242,7 +2240,7 @@
         "fuel",
         "power"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Built Environment",
       "dateAdded": "2025-06-28"
     },
@@ -2259,7 +2257,7 @@
         "double",
         "counting"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -4007,7 +4005,7 @@
         "design",
         "construction"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Built Environment",
       "dateAdded": "2025-06-28"
     },
@@ -5895,7 +5893,7 @@
         "services",
         "calculation"
       ],
-      "reference": "Whole life carbon assessment PS",
+      "reference": "RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
@@ -6506,7 +6504,7 @@
         "unit",
         "comparison"
       ],
-      "reference": "PAS 2080:2023; RICS Whole Life Carbon Assessment Professional Statement",
+      "reference": "PAS 2080:2023; RICS WLCA Professional Statement",
       "category": "Assessment & Lifecycle",
       "dateAdded": "2025-06-28"
     },
