@@ -2352,22 +2352,24 @@
       "dateAdded": "2025-06-28"
     },
     {
-      "id": "152",
-      "term": "H\\B:ERT",
-      "definition": "HB Carbon Emissions Reduction Toolkit - free British tool based on generic data from ICE database at University of Bath for building lifecycle carbon assessment",
-      "tags": [
-        "HB",
-        "ERT",
-        "british",
-        "tool",
-        "ICE",
-        "database",
-        "carbon",
-        "assessment"
-      ],
-      "reference": "LETI Embodied Carbon Primer",
-      "category": "Technology & Data",
-      "dateAdded": "2025-06-28"
+  "id": "152",
+  "term": "NABERS",
+  "definition": "NABERS (National Australian Built Environment Rating System) is a performance-based system for rating the energy efficiency and environmental impact of buildings. In the UK, NABERS UK is an adaptation of this system, specially focused on the energy performance of office buildings",
+  "tags": [
+    "NABERS",
+    "rating",
+    "system",
+    "performance",
+    "energy",
+    "efficiency",
+    "environmental",
+    "impact",
+    "office",
+    "buildings"
+  ],
+  "reference": "",
+  "category": "Assessment & Lifecycle",
+  "dateAdded": "2025-07-01"
     },
     {
       "id": "153",
